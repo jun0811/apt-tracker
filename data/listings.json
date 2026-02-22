@@ -7,28 +7,11 @@
       "snapshots": [
         {
           "date": "2026-02-22",
-          "totalCount": 16,
-          "minPrice": 78000,
-          "maxPrice": 93000,
-          "avgPrice": 86125,
-          "listings": [
-            { "dealOrWarrantPrc": "8억 7,000", "area2": 56, "floorInfo": "11/15" },
-            { "dealOrWarrantPrc": "8억 3,000", "area2": 56, "floorInfo": "2/15" },
-            { "dealOrWarrantPrc": "8억 5,000", "area2": 56, "floorInfo": "11/15" },
-            { "dealOrWarrantPrc": "8억 5,000", "area2": 56, "floorInfo": "11/15" },
-            { "dealOrWarrantPrc": "8억 8,000", "area2": 56, "floorInfo": "5/20" },
-            { "dealOrWarrantPrc": "8억 3,000", "area2": 56, "floorInfo": "3/15" },
-            { "dealOrWarrantPrc": "8억 5,000", "area2": 56, "floorInfo": "11/15" },
-            { "dealOrWarrantPrc": "8억 9,000", "area2": 56, "floorInfo": "9/15" },
-            { "dealOrWarrantPrc": "9억 2,000", "area2": 56, "floorInfo": "20/20" },
-            { "dealOrWarrantPrc": "8억 9,000", "area2": 56, "floorInfo": "14/20" },
-            { "dealOrWarrantPrc": "9억", "area2": 56, "floorInfo": "9/20" },
-            { "dealOrWarrantPrc": "8억 9,000", "area2": 56, "floorInfo": "고/20" },
-            { "dealOrWarrantPrc": "9억 3,000", "area2": 56, "floorInfo": "9/20" },
-            { "dealOrWarrantPrc": "8억 1,000", "area2": 50, "floorInfo": "10/14" },
-            { "dealOrWarrantPrc": "7억 8,000", "area2": 50, "floorInfo": "2/14" },
-            { "dealOrWarrantPrc": "8억", "area2": 50, "floorInfo": "9/14" }
-          ]
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
         }
       ],
       "byArea": [
@@ -43,9 +26,21 @@
               "maxPrice": 81000,
               "avgPrice": 79667,
               "listings": [
-                { "dealOrWarrantPrc": "8억 1,000", "area2": 50, "floorInfo": "10/14" },
-                { "dealOrWarrantPrc": "7억 8,000", "area2": 50, "floorInfo": "2/14" },
-                { "dealOrWarrantPrc": "8억", "area2": 50, "floorInfo": "9/14" }
+                {
+                  "dealOrWarrantPrc": "8억 1,000",
+                  "area2": 50,
+                  "floorInfo": "10/14"
+                },
+                {
+                  "dealOrWarrantPrc": "7억 8,000",
+                  "area2": 50,
+                  "floorInfo": "2/14"
+                },
+                {
+                  "dealOrWarrantPrc": "8억",
+                  "area2": 50,
+                  "floorInfo": "9/14"
+                }
               ]
             }
           ]
@@ -61,19 +56,71 @@
               "maxPrice": 93000,
               "avgPrice": 87538,
               "listings": [
-                { "dealOrWarrantPrc": "8억 7,000", "area2": 56, "floorInfo": "11/15" },
-                { "dealOrWarrantPrc": "8억 3,000", "area2": 56, "floorInfo": "2/15" },
-                { "dealOrWarrantPrc": "8억 5,000", "area2": 56, "floorInfo": "11/15" },
-                { "dealOrWarrantPrc": "8억 5,000", "area2": 56, "floorInfo": "11/15" },
-                { "dealOrWarrantPrc": "8억 8,000", "area2": 56, "floorInfo": "5/20" },
-                { "dealOrWarrantPrc": "8억 3,000", "area2": 56, "floorInfo": "3/15" },
-                { "dealOrWarrantPrc": "8억 5,000", "area2": 56, "floorInfo": "11/15" },
-                { "dealOrWarrantPrc": "8억 9,000", "area2": 56, "floorInfo": "9/15" },
-                { "dealOrWarrantPrc": "9억 2,000", "area2": 56, "floorInfo": "20/20" },
-                { "dealOrWarrantPrc": "8억 9,000", "area2": 56, "floorInfo": "14/20" },
-                { "dealOrWarrantPrc": "9억", "area2": 56, "floorInfo": "9/20" },
-                { "dealOrWarrantPrc": "8억 9,000", "area2": 56, "floorInfo": "고/20" },
-                { "dealOrWarrantPrc": "9억 3,000", "area2": 56, "floorInfo": "9/20" }
+                {
+                  "dealOrWarrantPrc": "8억 7,000",
+                  "area2": 56,
+                  "floorInfo": "11/15"
+                },
+                {
+                  "dealOrWarrantPrc": "8억 3,000",
+                  "area2": 56,
+                  "floorInfo": "2/15"
+                },
+                {
+                  "dealOrWarrantPrc": "8억 5,000",
+                  "area2": 56,
+                  "floorInfo": "11/15"
+                },
+                {
+                  "dealOrWarrantPrc": "8억 5,000",
+                  "area2": 56,
+                  "floorInfo": "11/15"
+                },
+                {
+                  "dealOrWarrantPrc": "8억 8,000",
+                  "area2": 56,
+                  "floorInfo": "5/20"
+                },
+                {
+                  "dealOrWarrantPrc": "8억 3,000",
+                  "area2": 56,
+                  "floorInfo": "3/15"
+                },
+                {
+                  "dealOrWarrantPrc": "8억 5,000",
+                  "area2": 56,
+                  "floorInfo": "11/15"
+                },
+                {
+                  "dealOrWarrantPrc": "8억 9,000",
+                  "area2": 56,
+                  "floorInfo": "9/15"
+                },
+                {
+                  "dealOrWarrantPrc": "9억 2,000",
+                  "area2": 56,
+                  "floorInfo": "20/20"
+                },
+                {
+                  "dealOrWarrantPrc": "8억 9,000",
+                  "area2": 56,
+                  "floorInfo": "14/20"
+                },
+                {
+                  "dealOrWarrantPrc": "9억",
+                  "area2": 56,
+                  "floorInfo": "9/20"
+                },
+                {
+                  "dealOrWarrantPrc": "8억 9,000",
+                  "area2": 56,
+                  "floorInfo": "고/20"
+                },
+                {
+                  "dealOrWarrantPrc": "9억 3,000",
+                  "area2": 56,
+                  "floorInfo": "9/20"
+                }
               ]
             }
           ]
@@ -83,19 +130,46 @@
     {
       "complexNo": 12,
       "name": "강서구 등촌3단지 주공",
-      "snapshots": [],
+      "snapshots": [
+        {
+          "date": "2026-02-22",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
+        }
+      ],
       "byArea": []
     },
     {
       "complexNo": 3417,
       "name": "금호삼성래미안",
-      "snapshots": [],
+      "snapshots": [
+        {
+          "date": "2026-02-22",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
+        }
+      ],
       "byArea": []
     },
     {
       "complexNo": 3833,
       "name": "약수동 남산타운",
-      "snapshots": [],
+      "snapshots": [
+        {
+          "date": "2026-02-22",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
+        }
+      ],
       "byArea": []
     }
   ]
