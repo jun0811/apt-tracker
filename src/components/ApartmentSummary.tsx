@@ -46,7 +46,17 @@ export default function ApartmentSummary({ data }: Props) {
 
   return (
     <div className="bg-white rounded-xl shadow-sm p-6">
-      <h2 className="text-lg font-bold mb-4">{data.name}</h2>
+      <div className="flex items-center gap-2 mb-4">
+        <h2 className="text-lg font-bold">{data.name}</h2>
+        <a
+          href={`https://new.land.naver.com/complexes/${data.complexNo}?ms=37.5,127,16&a=APT&e=RETAIL`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-blue-500 hover:text-blue-700 hover:underline"
+        >
+          매물 보기 &rarr;
+        </a>
+      </div>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
         {stats.map((s) => (
           <div key={s.label}>
