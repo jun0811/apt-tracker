@@ -56,6 +56,7 @@ async function main() {
       avgPrice: prices.length ? Math.round(prices.reduce((a, b) => a + b, 0) / prices.length) : 0,
       listings: listings.map((l) => ({
         dealOrWarrantPrc: l.dealOrWarrantPrc,
+        area1: l.area1,
         area2: l.area2,
         floorInfo: l.floorInfo,
       })),
@@ -69,13 +70,14 @@ async function main() {
       areaMap.get(key)!.push(l);
     }
 
-    const areaSnapshots: { area2: number; label: string; snapshot: DailySnapshot }[] = [];
+    const areaSnapshots: { area1: number; area2: number; label: string; snapshot: DailySnapshot }[] = [];
     for (const [area2, areaListings] of Array.from(areaMap.entries())) {
       const areaPrices = areaListings.map((l) => parsePrice(l.dealOrWarrantPrc)).filter((p) => p > 0);
-      const pyeong = Math.round(area2 * 0.3025);
+      const area1 = areaListings[0].area1;
       areaSnapshots.push({
+        area1,
         area2,
-        label: `${area2}㎡ (${pyeong}평)`,
+        label: `${area1}/${area2}㎡`,
         snapshot: {
           date: dateStr,
           totalCount: areaListings.length,
@@ -84,6 +86,7 @@ async function main() {
           avgPrice: areaPrices.length ? Math.round(areaPrices.reduce((a, b) => a + b, 0) / areaPrices.length) : 0,
           listings: areaListings.map((l) => ({
             dealOrWarrantPrc: l.dealOrWarrantPrc,
+            area1: l.area1,
             area2: l.area2,
             floorInfo: l.floorInfo,
           })),
@@ -106,12 +109,13 @@ async function main() {
     }
 
     // 평형별 업데이트
-    for (const { area2, label, snapshot: areaSnap } of areaSnapshots) {
+    for (const { area1, area2, label, snapshot: areaSnap } of areaSnapshots) {
       let group = aptData.byArea.find((g) => g.area2 === area2);
       if (!group) {
-        group = { area2, label, snapshots: [] };
+        group = { area1, area2, label, snapshots: [] };
         aptData.byArea.push(group);
       }
+      group.area1 = area1;
       group.label = label;
       group.snapshots = group.snapshots.filter((s) => s.date !== dateStr);
       group.snapshots.push(areaSnap);

@@ -14,91 +14,109 @@
           "listings": [
             {
               "dealOrWarrantPrc": "5억 7,000",
+              "area1": 56,
               "area2": 41,
               "floorInfo": "14/14"
             },
             {
               "dealOrWarrantPrc": "8억 7,000",
+              "area1": 74,
               "area2": 56,
               "floorInfo": "11/15"
             },
             {
               "dealOrWarrantPrc": "5억 7,000",
+              "area1": 56,
               "area2": 41,
               "floorInfo": "14/14"
             },
             {
               "dealOrWarrantPrc": "8억 3,000",
+              "area1": 74,
               "area2": 56,
               "floorInfo": "2/15"
             },
             {
+              "dealOrWarrantPrc": "6억",
+              "area1": 56,
+              "area2": 41,
+              "floorInfo": "11/14"
+            },
+            {
+              "dealOrWarrantPrc": "8억 5,000",
+              "area1": 74,
+              "area2": 56,
+              "floorInfo": "11/15"
+            },
+            {
               "dealOrWarrantPrc": "8억 8,000",
+              "area1": 74,
               "area2": 56,
               "floorInfo": "5/20"
             },
             {
               "dealOrWarrantPrc": "6억",
+              "area1": 56,
               "area2": 41,
               "floorInfo": "11/14"
             },
             {
               "dealOrWarrantPrc": "8억 5,000",
+              "area1": 74,
               "area2": 56,
               "floorInfo": "11/15"
-            },
-            {
-              "dealOrWarrantPrc": "6억",
-              "area2": 41,
-              "floorInfo": "11/14"
-            },
-            {
-              "dealOrWarrantPrc": "8억 5,000",
-              "area2": 56,
-              "floorInfo": "11/15"
-            },
-            {
-              "dealOrWarrantPrc": "8억 5,000",
-              "area2": 56,
-              "floorInfo": "11/15"
-            },
-            {
-              "dealOrWarrantPrc": "8억 3,000",
-              "area2": 56,
-              "floorInfo": "3/15"
             },
             {
               "dealOrWarrantPrc": "8억 9,000",
+              "area1": 74,
               "area2": 56,
               "floorInfo": "9/15"
             },
             {
-              "dealOrWarrantPrc": "9억 2,000",
+              "dealOrWarrantPrc": "8억 3,000",
+              "area1": 74,
               "area2": 56,
-              "floorInfo": "20/20"
+              "floorInfo": "3/15"
+            },
+            {
+              "dealOrWarrantPrc": "8억 5,000",
+              "area1": 74,
+              "area2": 56,
+              "floorInfo": "11/15"
             },
             {
               "dealOrWarrantPrc": "8억 9,000",
+              "area1": 74,
               "area2": 56,
               "floorInfo": "14/20"
             },
             {
+              "dealOrWarrantPrc": "9억 2,000",
+              "area1": 74,
+              "area2": 56,
+              "floorInfo": "20/20"
+            },
+            {
               "dealOrWarrantPrc": "9억",
+              "area1": 74,
               "area2": 56,
               "floorInfo": "9/20"
             },
             {
               "dealOrWarrantPrc": "5억 7,000",
+              "area1": 56,
               "area2": 41,
               "floorInfo": "고/14"
             },
             {
               "dealOrWarrantPrc": "8억 1,000",
+              "area1": 68,
               "area2": 50,
               "floorInfo": "10/14"
             },
             {
               "dealOrWarrantPrc": "8억 9,000",
+              "area1": 74,
               "area2": 56,
               "floorInfo": "고/20"
             }
@@ -107,8 +125,9 @@
       ],
       "byArea": [
         {
+          "area1": 56,
           "area2": 41,
-          "label": "41㎡ (12평)",
+          "label": "56/41㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -119,26 +138,31 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "5억 7,000",
+                  "area1": 56,
                   "area2": 41,
                   "floorInfo": "14/14"
                 },
                 {
                   "dealOrWarrantPrc": "5억 7,000",
+                  "area1": 56,
                   "area2": 41,
                   "floorInfo": "14/14"
                 },
                 {
                   "dealOrWarrantPrc": "6억",
+                  "area1": 56,
                   "area2": 41,
                   "floorInfo": "11/14"
                 },
                 {
                   "dealOrWarrantPrc": "6억",
+                  "area1": 56,
                   "area2": 41,
                   "floorInfo": "11/14"
                 },
                 {
                   "dealOrWarrantPrc": "5억 7,000",
+                  "area1": 56,
                   "area2": 41,
                   "floorInfo": "고/14"
                 }
@@ -147,8 +171,9 @@
           ]
         },
         {
+          "area1": 68,
           "area2": 50,
-          "label": "50㎡ (15평)",
+          "label": "68/50㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -159,6 +184,7 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "8억 1,000",
+                  "area1": 68,
                   "area2": 50,
                   "floorInfo": "10/14"
                 }
@@ -167,8 +193,9 @@
           ]
         },
         {
+          "area1": 74,
           "area2": 56,
-          "label": "56㎡ (17평)",
+          "label": "74/56㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -179,61 +206,73 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "8억 7,000",
+                  "area1": 74,
                   "area2": 56,
                   "floorInfo": "11/15"
                 },
                 {
                   "dealOrWarrantPrc": "8억 3,000",
+                  "area1": 74,
                   "area2": 56,
                   "floorInfo": "2/15"
                 },
                 {
+                  "dealOrWarrantPrc": "8억 5,000",
+                  "area1": 74,
+                  "area2": 56,
+                  "floorInfo": "11/15"
+                },
+                {
                   "dealOrWarrantPrc": "8억 8,000",
+                  "area1": 74,
                   "area2": 56,
                   "floorInfo": "5/20"
                 },
                 {
                   "dealOrWarrantPrc": "8억 5,000",
+                  "area1": 74,
                   "area2": 56,
                   "floorInfo": "11/15"
-                },
-                {
-                  "dealOrWarrantPrc": "8억 5,000",
-                  "area2": 56,
-                  "floorInfo": "11/15"
-                },
-                {
-                  "dealOrWarrantPrc": "8억 5,000",
-                  "area2": 56,
-                  "floorInfo": "11/15"
-                },
-                {
-                  "dealOrWarrantPrc": "8억 3,000",
-                  "area2": 56,
-                  "floorInfo": "3/15"
                 },
                 {
                   "dealOrWarrantPrc": "8억 9,000",
+                  "area1": 74,
                   "area2": 56,
                   "floorInfo": "9/15"
                 },
                 {
-                  "dealOrWarrantPrc": "9억 2,000",
+                  "dealOrWarrantPrc": "8억 3,000",
+                  "area1": 74,
                   "area2": 56,
-                  "floorInfo": "20/20"
+                  "floorInfo": "3/15"
+                },
+                {
+                  "dealOrWarrantPrc": "8억 5,000",
+                  "area1": 74,
+                  "area2": 56,
+                  "floorInfo": "11/15"
                 },
                 {
                   "dealOrWarrantPrc": "8억 9,000",
+                  "area1": 74,
                   "area2": 56,
                   "floorInfo": "14/20"
                 },
                 {
+                  "dealOrWarrantPrc": "9억 2,000",
+                  "area1": 74,
+                  "area2": 56,
+                  "floorInfo": "20/20"
+                },
+                {
                   "dealOrWarrantPrc": "9억",
+                  "area1": 74,
                   "area2": 56,
                   "floorInfo": "9/20"
                 },
                 {
                   "dealOrWarrantPrc": "8억 9,000",
+                  "area1": 74,
                   "area2": 56,
                   "floorInfo": "고/20"
                 }
@@ -256,101 +295,121 @@
           "listings": [
             {
               "dealOrWarrantPrc": "12억 5,000",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "4/15"
             },
             {
               "dealOrWarrantPrc": "12억 5,000",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "4/15"
             },
             {
               "dealOrWarrantPrc": "10억",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "1/15"
             },
             {
               "dealOrWarrantPrc": "11억",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "4/15"
             },
             {
               "dealOrWarrantPrc": "9억",
+              "area1": 53,
               "area2": 37,
               "floorInfo": "3/15"
             },
             {
               "dealOrWarrantPrc": "11억",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "고/15"
             },
             {
               "dealOrWarrantPrc": "11억",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "4/15"
             },
             {
               "dealOrWarrantPrc": "11억",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "11/15"
             },
             {
               "dealOrWarrantPrc": "12억",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "12/15"
             },
             {
               "dealOrWarrantPrc": "12억 5,000",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "4/15"
             },
             {
-              "dealOrWarrantPrc": "11억 500",
-              "area2": 58,
-              "floorInfo": "11/15"
-            },
-            {
               "dealOrWarrantPrc": "7억",
+              "area1": 53,
               "area2": 37,
               "floorInfo": "5/15"
             },
             {
+              "dealOrWarrantPrc": "11억 500",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "11/15"
+            },
+            {
               "dealOrWarrantPrc": "11억 5,000",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "중/15"
             },
             {
               "dealOrWarrantPrc": "13억",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "중/15"
             },
             {
               "dealOrWarrantPrc": "12억 5,000",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "4/15"
             },
             {
               "dealOrWarrantPrc": "11억 5,000",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "저/15"
             },
             {
               "dealOrWarrantPrc": "11억",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "7/15"
             },
             {
               "dealOrWarrantPrc": "12억 5,000",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "4/15"
             },
             {
               "dealOrWarrantPrc": "7억 2,000",
+              "area1": 53,
               "area2": 37,
               "floorInfo": "5/15"
             },
             {
               "dealOrWarrantPrc": "12억",
+              "area1": 79,
               "area2": 58,
               "floorInfo": "12/15"
             }
@@ -359,8 +418,9 @@
       ],
       "byArea": [
         {
+          "area1": 53,
           "area2": 37,
-          "label": "37㎡ (11평)",
+          "label": "53/37㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -371,16 +431,19 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "9억",
+                  "area1": 53,
                   "area2": 37,
                   "floorInfo": "3/15"
                 },
                 {
                   "dealOrWarrantPrc": "7억",
+                  "area1": 53,
                   "area2": 37,
                   "floorInfo": "5/15"
                 },
                 {
                   "dealOrWarrantPrc": "7억 2,000",
+                  "area1": 53,
                   "area2": 37,
                   "floorInfo": "5/15"
                 }
@@ -389,8 +452,9 @@
           ]
         },
         {
+          "area1": 79,
           "area2": 58,
-          "label": "58㎡ (18평)",
+          "label": "79/58㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -401,86 +465,103 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "12억 5,000",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "4/15"
                 },
                 {
                   "dealOrWarrantPrc": "12억 5,000",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "4/15"
                 },
                 {
                   "dealOrWarrantPrc": "10억",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "1/15"
                 },
                 {
                   "dealOrWarrantPrc": "11억",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "4/15"
                 },
                 {
                   "dealOrWarrantPrc": "11억",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "고/15"
                 },
                 {
                   "dealOrWarrantPrc": "11억",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "4/15"
                 },
                 {
                   "dealOrWarrantPrc": "11억",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "11/15"
                 },
                 {
                   "dealOrWarrantPrc": "12억",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "12/15"
                 },
                 {
                   "dealOrWarrantPrc": "12억 5,000",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "4/15"
                 },
                 {
                   "dealOrWarrantPrc": "11억 500",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "11/15"
                 },
                 {
                   "dealOrWarrantPrc": "11억 5,000",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "중/15"
                 },
                 {
                   "dealOrWarrantPrc": "13억",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "중/15"
                 },
                 {
                   "dealOrWarrantPrc": "12억 5,000",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "4/15"
                 },
                 {
                   "dealOrWarrantPrc": "11억 5,000",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "저/15"
                 },
                 {
                   "dealOrWarrantPrc": "11억",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "7/15"
                 },
                 {
                   "dealOrWarrantPrc": "12억 5,000",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "4/15"
                 },
                 {
                   "dealOrWarrantPrc": "12억",
+                  "area1": 79,
                   "area2": 58,
                   "floorInfo": "12/15"
                 }
@@ -503,97 +584,116 @@
           "listings": [
             {
               "dealOrWarrantPrc": "15억 5,000",
+              "area1": 78,
               "area2": 59,
               "floorInfo": "1/15"
             },
             {
               "dealOrWarrantPrc": "15억 5,000",
+              "area1": 78,
               "area2": 59,
               "floorInfo": "1/15"
             },
             {
               "dealOrWarrantPrc": "15억 5,000",
+              "area1": 78,
               "area2": 59,
               "floorInfo": "1/15"
             },
             {
               "dealOrWarrantPrc": "15억 5,000",
+              "area1": 78,
               "area2": 59,
               "floorInfo": "1/15"
             },
             {
               "dealOrWarrantPrc": "15억 5,000",
+              "area1": 78,
               "area2": 59,
               "floorInfo": "1/15"
             },
             {
               "dealOrWarrantPrc": "15억 5,000",
+              "area1": 78,
               "area2": 59,
               "floorInfo": "1/15"
             },
             {
               "dealOrWarrantPrc": "15억 5,000",
+              "area1": 78,
               "area2": 59,
               "floorInfo": "1/15"
             },
             {
               "dealOrWarrantPrc": "15억 5,000",
+              "area1": 78,
               "area2": 59,
               "floorInfo": "1/15"
-            },
-            {
-              "dealOrWarrantPrc": "17억",
-              "area2": 59,
-              "floorInfo": "고/15"
-            },
-            {
-              "dealOrWarrantPrc": "19억 5,000",
-              "area2": 84,
-              "floorInfo": "고/15"
             },
             {
               "dealOrWarrantPrc": "19억",
+              "area1": 105,
               "area2": 84,
               "floorInfo": "중/15"
             },
             {
+              "dealOrWarrantPrc": "19억 5,000",
+              "area1": 105,
+              "area2": 84,
+              "floorInfo": "고/15"
+            },
+            {
+              "dealOrWarrantPrc": "19억 5,000",
+              "area1": 105,
+              "area2": 84,
+              "floorInfo": "고/15"
+            },
+            {
+              "dealOrWarrantPrc": "19억 5,000",
+              "area1": 105,
+              "area2": 84,
+              "floorInfo": "고/15"
+            },
+            {
               "dealOrWarrantPrc": "17억",
+              "area1": 78,
               "area2": 59,
               "floorInfo": "저/15"
             },
             {
               "dealOrWarrantPrc": "19억",
+              "area1": 105,
               "area2": 84,
               "floorInfo": "중/15"
-            },
-            {
-              "dealOrWarrantPrc": "19억 5,000",
-              "area2": 84,
-              "floorInfo": "고/15"
             },
             {
               "dealOrWarrantPrc": "19억",
+              "area1": 105,
               "area2": 84,
               "floorInfo": "중/15"
+            },
+            {
+              "dealOrWarrantPrc": "17억",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "저/15"
+            },
+            {
+              "dealOrWarrantPrc": "19억",
+              "area1": 105,
+              "area2": 84,
+              "floorInfo": "중/15"
+            },
+            {
+              "dealOrWarrantPrc": "17억",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "고/15"
             },
             {
               "dealOrWarrantPrc": "20억",
+              "area1": 138,
               "area2": 114,
-              "floorInfo": "중/15"
-            },
-            {
-              "dealOrWarrantPrc": "19억 5,000",
-              "area2": 84,
-              "floorInfo": "고/15"
-            },
-            {
-              "dealOrWarrantPrc": "17억",
-              "area2": 59,
-              "floorInfo": "저/15"
-            },
-            {
-              "dealOrWarrantPrc": "19억",
-              "area2": 84,
               "floorInfo": "중/15"
             }
           ]
@@ -601,8 +701,9 @@
       ],
       "byArea": [
         {
+          "area1": 78,
           "area2": 59,
-          "label": "59㎡ (18평)",
+          "label": "78/59㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -613,66 +714,78 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "15억 5,000",
+                  "area1": 78,
                   "area2": 59,
                   "floorInfo": "1/15"
                 },
                 {
                   "dealOrWarrantPrc": "15억 5,000",
+                  "area1": 78,
                   "area2": 59,
                   "floorInfo": "1/15"
                 },
                 {
                   "dealOrWarrantPrc": "15억 5,000",
+                  "area1": 78,
                   "area2": 59,
                   "floorInfo": "1/15"
                 },
                 {
                   "dealOrWarrantPrc": "15억 5,000",
+                  "area1": 78,
                   "area2": 59,
                   "floorInfo": "1/15"
                 },
                 {
                   "dealOrWarrantPrc": "15억 5,000",
+                  "area1": 78,
                   "area2": 59,
                   "floorInfo": "1/15"
                 },
                 {
                   "dealOrWarrantPrc": "15억 5,000",
+                  "area1": 78,
                   "area2": 59,
                   "floorInfo": "1/15"
                 },
                 {
                   "dealOrWarrantPrc": "15억 5,000",
+                  "area1": 78,
                   "area2": 59,
                   "floorInfo": "1/15"
                 },
                 {
                   "dealOrWarrantPrc": "15억 5,000",
+                  "area1": 78,
                   "area2": 59,
                   "floorInfo": "1/15"
                 },
                 {
                   "dealOrWarrantPrc": "17억",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "저/15"
+                },
+                {
+                  "dealOrWarrantPrc": "17억",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "저/15"
+                },
+                {
+                  "dealOrWarrantPrc": "17억",
+                  "area1": 78,
                   "area2": 59,
                   "floorInfo": "고/15"
-                },
-                {
-                  "dealOrWarrantPrc": "17억",
-                  "area2": 59,
-                  "floorInfo": "저/15"
-                },
-                {
-                  "dealOrWarrantPrc": "17억",
-                  "area2": 59,
-                  "floorInfo": "저/15"
                 }
               ]
             }
           ]
         },
         {
+          "area1": 105,
           "area2": 84,
-          "label": "84㎡ (25평)",
+          "label": "105/84㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -682,37 +795,44 @@
               "avgPrice": 192143,
               "listings": [
                 {
-                  "dealOrWarrantPrc": "19억 5,000",
-                  "area2": 84,
-                  "floorInfo": "고/15"
-                },
-                {
                   "dealOrWarrantPrc": "19억",
-                  "area2": 84,
-                  "floorInfo": "중/15"
-                },
-                {
-                  "dealOrWarrantPrc": "19억",
+                  "area1": 105,
                   "area2": 84,
                   "floorInfo": "중/15"
                 },
                 {
                   "dealOrWarrantPrc": "19억 5,000",
+                  "area1": 105,
+                  "area2": 84,
+                  "floorInfo": "고/15"
+                },
+                {
+                  "dealOrWarrantPrc": "19억 5,000",
+                  "area1": 105,
+                  "area2": 84,
+                  "floorInfo": "고/15"
+                },
+                {
+                  "dealOrWarrantPrc": "19억 5,000",
+                  "area1": 105,
                   "area2": 84,
                   "floorInfo": "고/15"
                 },
                 {
                   "dealOrWarrantPrc": "19억",
+                  "area1": 105,
                   "area2": 84,
                   "floorInfo": "중/15"
                 },
                 {
-                  "dealOrWarrantPrc": "19억 5,000",
+                  "dealOrWarrantPrc": "19억",
+                  "area1": 105,
                   "area2": 84,
-                  "floorInfo": "고/15"
+                  "floorInfo": "중/15"
                 },
                 {
                   "dealOrWarrantPrc": "19억",
+                  "area1": 105,
                   "area2": 84,
                   "floorInfo": "중/15"
                 }
@@ -721,8 +841,9 @@
           ]
         },
         {
+          "area1": 138,
           "area2": 114,
-          "label": "114㎡ (34평)",
+          "label": "138/114㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -733,6 +854,7 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "20억",
+                  "area1": 138,
                   "area2": 114,
                   "floorInfo": "중/15"
                 }
@@ -755,86 +877,102 @@
           "listings": [
             {
               "dealOrWarrantPrc": "17억 5,000",
+              "area1": 106,
               "area2": 84,
               "floorInfo": "7/18"
             },
             {
               "dealOrWarrantPrc": "15억 2,000",
+              "area1": 85,
               "area2": 59,
               "floorInfo": "2/18"
             },
             {
               "dealOrWarrantPrc": "20억 5,000",
+              "area1": 139,
               "area2": 114,
               "floorInfo": "12/18"
             },
             {
               "dealOrWarrantPrc": "21억",
+              "area1": 139,
               "area2": 114,
               "floorInfo": "5/18"
             },
             {
               "dealOrWarrantPrc": "16억",
+              "area1": 85,
               "area2": 59,
               "floorInfo": "고/18"
             },
             {
               "dealOrWarrantPrc": "21억",
+              "area1": 139,
               "area2": 114,
               "floorInfo": "중/18"
             },
             {
               "dealOrWarrantPrc": "16억",
+              "area1": 85,
               "area2": 59,
               "floorInfo": "고/18"
             },
             {
               "dealOrWarrantPrc": "20억",
+              "area1": 139,
               "area2": 114,
               "floorInfo": "15/18"
             },
             {
               "dealOrWarrantPrc": "17억 5,000",
+              "area1": 106,
               "area2": 84,
               "floorInfo": "18/18"
             },
             {
-              "dealOrWarrantPrc": "15억 2,000",
-              "area2": 59,
-              "floorInfo": "2/18"
-            },
-            {
               "dealOrWarrantPrc": "19억 4,000",
+              "area1": 139,
               "area2": 114,
               "floorInfo": "7/18"
             },
             {
               "dealOrWarrantPrc": "19억 5,000",
+              "area1": 139,
               "area2": 114,
               "floorInfo": "17/18"
             },
             {
-              "dealOrWarrantPrc": "17억",
-              "area2": 84,
-              "floorInfo": "7/18"
-            },
-            {
               "dealOrWarrantPrc": "15억 2,000",
+              "area1": 85,
               "area2": 59,
               "floorInfo": "2/18"
             },
             {
               "dealOrWarrantPrc": "20억",
+              "area1": 139,
               "area2": 114,
               "floorInfo": "15/18"
+            },
+            {
+              "dealOrWarrantPrc": "15억 2,000",
+              "area1": 85,
+              "area2": 59,
+              "floorInfo": "2/18"
+            },
+            {
+              "dealOrWarrantPrc": "17억",
+              "area1": 106,
+              "area2": 84,
+              "floorInfo": "7/18"
             }
           ]
         }
       ],
       "byArea": [
         {
+          "area1": 85,
           "area2": 59,
-          "label": "59㎡ (18평)",
+          "label": "85/59㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -845,26 +983,31 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "15억 2,000",
+                  "area1": 85,
                   "area2": 59,
                   "floorInfo": "2/18"
                 },
                 {
                   "dealOrWarrantPrc": "16억",
+                  "area1": 85,
                   "area2": 59,
                   "floorInfo": "고/18"
                 },
                 {
                   "dealOrWarrantPrc": "16억",
+                  "area1": 85,
                   "area2": 59,
                   "floorInfo": "고/18"
                 },
                 {
                   "dealOrWarrantPrc": "15억 2,000",
+                  "area1": 85,
                   "area2": 59,
                   "floorInfo": "2/18"
                 },
                 {
                   "dealOrWarrantPrc": "15억 2,000",
+                  "area1": 85,
                   "area2": 59,
                   "floorInfo": "2/18"
                 }
@@ -873,8 +1016,9 @@
           ]
         },
         {
+          "area1": 106,
           "area2": 84,
-          "label": "84㎡ (25평)",
+          "label": "106/84㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -885,16 +1029,19 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "17억 5,000",
+                  "area1": 106,
                   "area2": 84,
                   "floorInfo": "7/18"
                 },
                 {
                   "dealOrWarrantPrc": "17억 5,000",
+                  "area1": 106,
                   "area2": 84,
                   "floorInfo": "18/18"
                 },
                 {
                   "dealOrWarrantPrc": "17억",
+                  "area1": 106,
                   "area2": 84,
                   "floorInfo": "7/18"
                 }
@@ -903,8 +1050,9 @@
           ]
         },
         {
+          "area1": 139,
           "area2": 114,
-          "label": "114㎡ (34평)",
+          "label": "139/114㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -915,36 +1063,43 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "20억 5,000",
+                  "area1": 139,
                   "area2": 114,
                   "floorInfo": "12/18"
                 },
                 {
                   "dealOrWarrantPrc": "21억",
+                  "area1": 139,
                   "area2": 114,
                   "floorInfo": "5/18"
                 },
                 {
                   "dealOrWarrantPrc": "21억",
+                  "area1": 139,
                   "area2": 114,
                   "floorInfo": "중/18"
                 },
                 {
                   "dealOrWarrantPrc": "20억",
+                  "area1": 139,
                   "area2": 114,
                   "floorInfo": "15/18"
                 },
                 {
                   "dealOrWarrantPrc": "19억 4,000",
+                  "area1": 139,
                   "area2": 114,
                   "floorInfo": "7/18"
                 },
                 {
                   "dealOrWarrantPrc": "19억 5,000",
+                  "area1": 139,
                   "area2": 114,
                   "floorInfo": "17/18"
                 },
                 {
                   "dealOrWarrantPrc": "20억",
+                  "area1": 139,
                   "area2": 114,
                   "floorInfo": "15/18"
                 }
@@ -967,101 +1122,121 @@
           "listings": [
             {
               "dealOrWarrantPrc": "18억 5,000",
+              "area1": 141,
               "area2": 114,
               "floorInfo": "2/17"
             },
             {
               "dealOrWarrantPrc": "18억 5,000",
+              "area1": 141,
               "area2": 114,
               "floorInfo": "2/17"
             },
             {
               "dealOrWarrantPrc": "19억 5,000",
+              "area1": 141,
               "area2": 114,
               "floorInfo": "고/20"
             },
             {
               "dealOrWarrantPrc": "14억 8,000",
+              "area1": 80,
               "area2": 57,
               "floorInfo": "저/20"
             },
             {
               "dealOrWarrantPrc": "18억 5,000",
+              "area1": 141,
               "area2": 114,
               "floorInfo": "2/17"
             },
             {
               "dealOrWarrantPrc": "16억 5,000",
+              "area1": 107,
               "area2": 84,
               "floorInfo": "1/20"
             },
             {
               "dealOrWarrantPrc": "16억 5,000",
+              "area1": 107,
               "area2": 84,
               "floorInfo": "1/20"
             },
             {
               "dealOrWarrantPrc": "14억 8,000",
+              "area1": 80,
+              "area2": 57,
+              "floorInfo": "저/20"
+            },
+            {
+              "dealOrWarrantPrc": "14억 8,000",
+              "area1": 80,
               "area2": 57,
               "floorInfo": "고/20"
             },
             {
               "dealOrWarrantPrc": "14억 8,000",
+              "area1": 80,
               "area2": 57,
               "floorInfo": "저/20"
+            },
+            {
+              "dealOrWarrantPrc": "15억 2,000",
+              "area1": 80,
+              "area2": 57,
+              "floorInfo": "중/12"
             },
             {
               "dealOrWarrantPrc": "18억",
+              "area1": 107,
               "area2": 84,
               "floorInfo": "고/20"
             },
             {
               "dealOrWarrantPrc": "15억 2,000",
+              "area1": 80,
               "area2": 57,
               "floorInfo": "중/12"
-            },
-            {
-              "dealOrWarrantPrc": "14억 8,000",
-              "area2": 57,
-              "floorInfo": "저/20"
-            },
-            {
-              "dealOrWarrantPrc": "15억 2,000",
-              "area2": 57,
-              "floorInfo": "중/12"
-            },
-            {
-              "dealOrWarrantPrc": "17억 8,000",
-              "area2": 84,
-              "floorInfo": "중/20"
             },
             {
               "dealOrWarrantPrc": "18억 5,000",
+              "area1": 141,
               "area2": 114,
               "floorInfo": "중/17"
             },
             {
-              "dealOrWarrantPrc": "15억 2,000",
-              "area2": 57,
-              "floorInfo": "중/12"
+              "dealOrWarrantPrc": "17억 8,000",
+              "area1": 107,
+              "area2": 84,
+              "floorInfo": "중/20"
             },
             {
               "dealOrWarrantPrc": "14억 5,000",
+              "area1": 80,
               "area2": 57,
               "floorInfo": "저/20"
             },
             {
+              "dealOrWarrantPrc": "15억 2,000",
+              "area1": 80,
+              "area2": 57,
+              "floorInfo": "중/12"
+            },
+            {
               "dealOrWarrantPrc": "19억 5,000",
+              "area1": 141,
               "area2": 114,
               "floorInfo": "고/20"
             },
             {
               "dealOrWarrantPrc": "18억",
+              "area1": 107,
               "area2": 84,
               "floorInfo": "고/20"
             },
             {
               "dealOrWarrantPrc": "14억",
+              "area1": 80,
               "area2": 57,
               "floorInfo": "고/18"
             }
@@ -1070,8 +1245,9 @@
       ],
       "byArea": [
         {
+          "area1": 80,
           "area2": 57,
-          "label": "57㎡ (17평)",
+          "label": "80/57㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -1082,46 +1258,55 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "14억 8,000",
+                  "area1": 80,
                   "area2": 57,
                   "floorInfo": "저/20"
                 },
                 {
                   "dealOrWarrantPrc": "14억 8,000",
+                  "area1": 80,
+                  "area2": 57,
+                  "floorInfo": "저/20"
+                },
+                {
+                  "dealOrWarrantPrc": "14억 8,000",
+                  "area1": 80,
                   "area2": 57,
                   "floorInfo": "고/20"
                 },
                 {
                   "dealOrWarrantPrc": "14억 8,000",
+                  "area1": 80,
                   "area2": 57,
                   "floorInfo": "저/20"
                 },
                 {
                   "dealOrWarrantPrc": "15억 2,000",
-                  "area2": 57,
-                  "floorInfo": "중/12"
-                },
-                {
-                  "dealOrWarrantPrc": "14억 8,000",
-                  "area2": 57,
-                  "floorInfo": "저/20"
-                },
-                {
-                  "dealOrWarrantPrc": "15억 2,000",
+                  "area1": 80,
                   "area2": 57,
                   "floorInfo": "중/12"
                 },
                 {
                   "dealOrWarrantPrc": "15억 2,000",
+                  "area1": 80,
                   "area2": 57,
                   "floorInfo": "중/12"
                 },
                 {
                   "dealOrWarrantPrc": "14억 5,000",
+                  "area1": 80,
                   "area2": 57,
                   "floorInfo": "저/20"
                 },
                 {
+                  "dealOrWarrantPrc": "15억 2,000",
+                  "area1": 80,
+                  "area2": 57,
+                  "floorInfo": "중/12"
+                },
+                {
                   "dealOrWarrantPrc": "14억",
+                  "area1": 80,
                   "area2": 57,
                   "floorInfo": "고/18"
                 }
@@ -1130,8 +1315,9 @@
           ]
         },
         {
+          "area1": 107,
           "area2": 84,
-          "label": "84㎡ (25평)",
+          "label": "107/84㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -1142,26 +1328,31 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "16억 5,000",
+                  "area1": 107,
                   "area2": 84,
                   "floorInfo": "1/20"
                 },
                 {
                   "dealOrWarrantPrc": "16억 5,000",
+                  "area1": 107,
                   "area2": 84,
                   "floorInfo": "1/20"
                 },
                 {
                   "dealOrWarrantPrc": "18억",
+                  "area1": 107,
                   "area2": 84,
                   "floorInfo": "고/20"
                 },
                 {
                   "dealOrWarrantPrc": "17억 8,000",
+                  "area1": 107,
                   "area2": 84,
                   "floorInfo": "중/20"
                 },
                 {
                   "dealOrWarrantPrc": "18억",
+                  "area1": 107,
                   "area2": 84,
                   "floorInfo": "고/20"
                 }
@@ -1170,8 +1361,9 @@
           ]
         },
         {
+          "area1": 141,
           "area2": 114,
-          "label": "114㎡ (34평)",
+          "label": "141/114㎡",
           "snapshots": [
             {
               "date": "2026-02-23",
@@ -1182,31 +1374,37 @@
               "listings": [
                 {
                   "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 141,
                   "area2": 114,
                   "floorInfo": "2/17"
                 },
                 {
                   "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 141,
                   "area2": 114,
                   "floorInfo": "2/17"
                 },
                 {
                   "dealOrWarrantPrc": "19억 5,000",
+                  "area1": 141,
                   "area2": 114,
                   "floorInfo": "고/20"
                 },
                 {
                   "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 141,
                   "area2": 114,
                   "floorInfo": "2/17"
                 },
                 {
                   "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 141,
                   "area2": 114,
                   "floorInfo": "중/17"
                 },
                 {
                   "dealOrWarrantPrc": "19억 5,000",
+                  "area1": 141,
                   "area2": 114,
                   "floorInfo": "고/20"
                 }

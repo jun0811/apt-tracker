@@ -23,12 +23,13 @@ export interface DailySnapshot {
   minPrice: number; // 만원 단위
   maxPrice: number;
   avgPrice: number;
-  listings: Pick<Listing, 'dealOrWarrantPrc' | 'area2' | 'floorInfo'>[];
+  listings: Pick<Listing, 'dealOrWarrantPrc' | 'area1' | 'area2' | 'floorInfo'>[];
 }
 
 export interface AreaGroup {
+  area1: number;       // 공급면적 (㎡)
   area2: number;       // 전용면적 (㎡)
-  label: string;       // "59㎡ (24평)" 형태
+  label: string;       // "79/59㎡" 형태
   snapshots: DailySnapshot[];
 }
 
