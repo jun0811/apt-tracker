@@ -5,45 +5,98 @@
       "complexNo": 3022,
       "name": "안양시 목련3단지",
       "snapshots": [
-        { "date": "2026-02-18", "totalCount": 12, "minPrice": 28000, "maxPrice": 35000, "avgPrice": 31200, "listings": [] },
-        { "date": "2026-02-19", "totalCount": 14, "minPrice": 27500, "maxPrice": 35000, "avgPrice": 30800, "listings": [] },
-        { "date": "2026-02-20", "totalCount": 13, "minPrice": 27500, "maxPrice": 34500, "avgPrice": 30500, "listings": [] },
-        { "date": "2026-02-21", "totalCount": 15, "minPrice": 27000, "maxPrice": 35500, "avgPrice": 31000, "listings": [] },
-        { "date": "2026-02-22", "totalCount": 14, "minPrice": 27000, "maxPrice": 35000, "avgPrice": 30700, "listings": [] }
+        {
+          "date": "2026-02-22",
+          "totalCount": 16,
+          "minPrice": 78000,
+          "maxPrice": 93000,
+          "avgPrice": 86125,
+          "listings": [
+            { "dealOrWarrantPrc": "8억 7,000", "area2": 56, "floorInfo": "11/15" },
+            { "dealOrWarrantPrc": "8억 3,000", "area2": 56, "floorInfo": "2/15" },
+            { "dealOrWarrantPrc": "8억 5,000", "area2": 56, "floorInfo": "11/15" },
+            { "dealOrWarrantPrc": "8억 5,000", "area2": 56, "floorInfo": "11/15" },
+            { "dealOrWarrantPrc": "8억 8,000", "area2": 56, "floorInfo": "5/20" },
+            { "dealOrWarrantPrc": "8억 3,000", "area2": 56, "floorInfo": "3/15" },
+            { "dealOrWarrantPrc": "8억 5,000", "area2": 56, "floorInfo": "11/15" },
+            { "dealOrWarrantPrc": "8억 9,000", "area2": 56, "floorInfo": "9/15" },
+            { "dealOrWarrantPrc": "9억 2,000", "area2": 56, "floorInfo": "20/20" },
+            { "dealOrWarrantPrc": "8억 9,000", "area2": 56, "floorInfo": "14/20" },
+            { "dealOrWarrantPrc": "9억", "area2": 56, "floorInfo": "9/20" },
+            { "dealOrWarrantPrc": "8억 9,000", "area2": 56, "floorInfo": "고/20" },
+            { "dealOrWarrantPrc": "9억 3,000", "area2": 56, "floorInfo": "9/20" },
+            { "dealOrWarrantPrc": "8억 1,000", "area2": 50, "floorInfo": "10/14" },
+            { "dealOrWarrantPrc": "7억 8,000", "area2": 50, "floorInfo": "2/14" },
+            { "dealOrWarrantPrc": "8억", "area2": 50, "floorInfo": "9/14" }
+          ]
+        }
+      ],
+      "byArea": [
+        {
+          "area2": 50,
+          "label": "50㎡ (15평)",
+          "snapshots": [
+            {
+              "date": "2026-02-22",
+              "totalCount": 3,
+              "minPrice": 78000,
+              "maxPrice": 81000,
+              "avgPrice": 79667,
+              "listings": [
+                { "dealOrWarrantPrc": "8억 1,000", "area2": 50, "floorInfo": "10/14" },
+                { "dealOrWarrantPrc": "7억 8,000", "area2": 50, "floorInfo": "2/14" },
+                { "dealOrWarrantPrc": "8억", "area2": 50, "floorInfo": "9/14" }
+              ]
+            }
+          ]
+        },
+        {
+          "area2": 56,
+          "label": "56㎡ (17평)",
+          "snapshots": [
+            {
+              "date": "2026-02-22",
+              "totalCount": 13,
+              "minPrice": 83000,
+              "maxPrice": 93000,
+              "avgPrice": 87538,
+              "listings": [
+                { "dealOrWarrantPrc": "8억 7,000", "area2": 56, "floorInfo": "11/15" },
+                { "dealOrWarrantPrc": "8억 3,000", "area2": 56, "floorInfo": "2/15" },
+                { "dealOrWarrantPrc": "8억 5,000", "area2": 56, "floorInfo": "11/15" },
+                { "dealOrWarrantPrc": "8억 5,000", "area2": 56, "floorInfo": "11/15" },
+                { "dealOrWarrantPrc": "8억 8,000", "area2": 56, "floorInfo": "5/20" },
+                { "dealOrWarrantPrc": "8억 3,000", "area2": 56, "floorInfo": "3/15" },
+                { "dealOrWarrantPrc": "8억 5,000", "area2": 56, "floorInfo": "11/15" },
+                { "dealOrWarrantPrc": "8억 9,000", "area2": 56, "floorInfo": "9/15" },
+                { "dealOrWarrantPrc": "9억 2,000", "area2": 56, "floorInfo": "20/20" },
+                { "dealOrWarrantPrc": "8억 9,000", "area2": 56, "floorInfo": "14/20" },
+                { "dealOrWarrantPrc": "9억", "area2": 56, "floorInfo": "9/20" },
+                { "dealOrWarrantPrc": "8억 9,000", "area2": 56, "floorInfo": "고/20" },
+                { "dealOrWarrantPrc": "9억 3,000", "area2": 56, "floorInfo": "9/20" }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
       "complexNo": 12,
       "name": "강서구 등촌3단지 주공",
-      "snapshots": [
-        { "date": "2026-02-18", "totalCount": 8, "minPrice": 42000, "maxPrice": 53000, "avgPrice": 47500, "listings": [] },
-        { "date": "2026-02-19", "totalCount": 9, "minPrice": 41500, "maxPrice": 54000, "avgPrice": 47800, "listings": [] },
-        { "date": "2026-02-20", "totalCount": 7, "minPrice": 42000, "maxPrice": 53500, "avgPrice": 48000, "listings": [] },
-        { "date": "2026-02-21", "totalCount": 10, "minPrice": 41000, "maxPrice": 54500, "avgPrice": 47200, "listings": [] },
-        { "date": "2026-02-22", "totalCount": 9, "minPrice": 41500, "maxPrice": 54000, "avgPrice": 47600, "listings": [] }
-      ]
+      "snapshots": [],
+      "byArea": []
     },
     {
       "complexNo": 3417,
       "name": "금호삼성래미안",
-      "snapshots": [
-        { "date": "2026-02-18", "totalCount": 18, "minPrice": 68000, "maxPrice": 95000, "avgPrice": 82000, "listings": [] },
-        { "date": "2026-02-19", "totalCount": 20, "minPrice": 67000, "maxPrice": 96000, "avgPrice": 81500, "listings": [] },
-        { "date": "2026-02-20", "totalCount": 19, "minPrice": 67500, "maxPrice": 95500, "avgPrice": 82300, "listings": [] },
-        { "date": "2026-02-21", "totalCount": 21, "minPrice": 66000, "maxPrice": 97000, "avgPrice": 83000, "listings": [] },
-        { "date": "2026-02-22", "totalCount": 20, "minPrice": 67000, "maxPrice": 96000, "avgPrice": 82800, "listings": [] }
-      ]
+      "snapshots": [],
+      "byArea": []
     },
     {
       "complexNo": 3833,
       "name": "약수동 남산타운",
-      "snapshots": [
-        { "date": "2026-02-18", "totalCount": 25, "minPrice": 75000, "maxPrice": 115000, "avgPrice": 95000, "listings": [] },
-        { "date": "2026-02-19", "totalCount": 27, "minPrice": 74000, "maxPrice": 116000, "avgPrice": 94500, "listings": [] },
-        { "date": "2026-02-20", "totalCount": 24, "minPrice": 74500, "maxPrice": 115000, "avgPrice": 95200, "listings": [] },
-        { "date": "2026-02-21", "totalCount": 28, "minPrice": 73000, "maxPrice": 117000, "avgPrice": 95800, "listings": [] },
-        { "date": "2026-02-22", "totalCount": 26, "minPrice": 74000, "maxPrice": 116000, "avgPrice": 95500, "listings": [] }
-      ]
+      "snapshots": [],
+      "byArea": []
     }
   ]
 }

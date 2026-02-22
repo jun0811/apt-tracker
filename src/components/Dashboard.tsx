@@ -12,7 +12,20 @@ interface DashboardProps {
 
 export default function Dashboard({ data }: DashboardProps) {
   const [selectedIdx, setSelectedIdx] = useState(0);
+  const [selectedArea, setSelectedArea] = useState<number | null>(null); // null = 전체
   const selected = data.apartments[selectedIdx] ?? null;
+
+  // 아파트 변경 시 평형 선택 초기화
+  const handleAptChange = (idx: number) => {
+    setSelectedIdx(idx);
+    setSelectedArea(null);
+  };
+
+  const activeSnapshots = selected
+    ? selectedArea === null
+      ? selected.snapshots
+      : selected.byArea?.find((g) => g.area2 === selectedArea)?.snapshots ?? []
+    : [];
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -32,7 +45,7 @@ export default function Dashboard({ data }: DashboardProps) {
             {data.apartments.map((apt, idx) => (
               <button
                 key={apt.complexNo}
-                onClick={() => setSelectedIdx(idx)}
+                onClick={() => handleAptChange(idx)}
                 className={`w-full text-left px-4 py-3 text-sm transition-colors ${
                   idx === selectedIdx
                     ? 'bg-blue-50 text-blue-700 font-semibold border-r-2 border-blue-600'
@@ -51,7 +64,7 @@ export default function Dashboard({ data }: DashboardProps) {
           <div className="md:hidden mb-6">
             <select
               value={selectedIdx}
-              onChange={(e) => setSelectedIdx(Number(e.target.value))}
+              onChange={(e) => handleAptChange(Number(e.target.value))}
               className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm bg-white"
             >
               {data.apartments.map((apt, idx) => (
@@ -66,14 +79,43 @@ export default function Dashboard({ data }: DashboardProps) {
             <div className="space-y-6">
               <ApartmentSummary data={selected} />
 
+              {/* 평형 탭 */}
+              {selected.byArea && selected.byArea.length > 0 && (
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    onClick={() => setSelectedArea(null)}
+                    className={`px-3 py-1.5 text-sm rounded-lg transition-colors ${
+                      selectedArea === null
+                        ? 'bg-blue-600 text-white font-semibold'
+                        : 'bg-white text-gray-600 border border-gray-200 hover:bg-gray-50'
+                    }`}
+                  >
+                    전체
+                  </button>
+                  {selected.byArea.map((group) => (
+                    <button
+                      key={group.area2}
+                      onClick={() => setSelectedArea(group.area2)}
+                      className={`px-3 py-1.5 text-sm rounded-lg transition-colors ${
+                        selectedArea === group.area2
+                          ? 'bg-blue-600 text-white font-semibold'
+                          : 'bg-white text-gray-600 border border-gray-200 hover:bg-gray-50'
+                      }`}
+                    >
+                      {group.label}
+                    </button>
+                  ))}
+                </div>
+              )}
+
               <section className="bg-white rounded-xl shadow-sm p-6">
                 <h3 className="text-sm font-semibold text-gray-700 mb-4">매물 수 추이</h3>
-                <ListingCountChart snapshots={selected.snapshots} />
+                <ListingCountChart snapshots={activeSnapshots} />
               </section>
 
               <section className="bg-white rounded-xl shadow-sm p-6">
                 <h3 className="text-sm font-semibold text-gray-700 mb-4">가격 추이</h3>
-                <PriceChart snapshots={selected.snapshots} />
+                <PriceChart snapshots={activeSnapshots} />
               </section>
             </div>
           ) : (

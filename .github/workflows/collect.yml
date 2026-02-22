@@ -1,7 +1,7 @@
 name: Collect Listings
 on:
   schedule:
-    - cron: '0 15 * * *'  # 매일 0시 KST = 15:00 UTC
+    - cron: '0 15 * * *' # 매일 0시 KST = 15:00 UTC
   workflow_dispatch: {}
 jobs:
   collect:
@@ -12,6 +12,8 @@ jobs:
         with:
           node-version: '20'
       - run: npm ci
+      - name: Install Playwright Chromium
+        run: npx playwright install chromium --with-deps
       - run: npm run collect
       - name: Commit & Push
         run: |

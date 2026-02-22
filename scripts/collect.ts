@@ -2,8 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { format } from 'date-fns';
 import { APARTMENTS, MAX_DAYS } from '../src/lib/apartments';
-import { fetchListings } from '../src/lib/naver';
-import { DailySnapshot, ListingsData } from '../src/lib/types';
+import { closeBrowser, fetchListings } from '../src/lib/naver';
+import { AreaGroup, DailySnapshot, ListingsData } from '../src/lib/types';
 
 const DATA_PATH = path.resolve(__dirname, '../data/listings.json');
 
@@ -33,12 +33,21 @@ async function main() {
 
   for (let i = 0; i < APARTMENTS.length; i++) {
     const apt = APARTMENTS[i];
-    if (i > 0) await new Promise((r) => setTimeout(r, 2000));
+    if (i > 0) await new Promise((r) => setTimeout(r, 5000));
     console.log(`Fetching ${apt.name} (${apt.complexNo})...`);
-    const listings = await fetchListings(apt.complexNo);
+
+    let listings = await fetchListings(apt.complexNo).catch(async (err) => {
+      if (err?.message === 'RATE_LIMITED') {
+        console.log(`  ⏳ Rate limited. Waiting 60s before retry...`);
+        await new Promise((r) => setTimeout(r, 60000));
+        return fetchListings(apt.complexNo).catch(() => [] as any[]);
+      }
+      return [] as any[];
+    });
 
     const prices = listings.map((l) => parsePrice(l.dealOrWarrantPrc)).filter((p) => p > 0);
 
+    // 전체 합산 snapshot
     const snapshot: DailySnapshot = {
       date: dateStr,
       totalCount: listings.length,
@@ -52,23 +61,71 @@ async function main() {
       })),
     };
 
-    let aptData = data.apartments.find((a) => a.complexNo === apt.complexNo);
-    if (!aptData) {
-      aptData = { complexNo: apt.complexNo, name: apt.name, snapshots: [] };
-      data.apartments.push(aptData);
+    // 평형별 그룹핑
+    const areaMap = new Map<number, typeof listings>();
+    for (const l of listings) {
+      const key = l.area2;
+      if (!areaMap.has(key)) areaMap.set(key, []);
+      areaMap.get(key)!.push(l);
     }
 
-    // Replace if same date already exists
+    const areaSnapshots: { area2: number; label: string; snapshot: DailySnapshot }[] = [];
+    for (const [area2, areaListings] of Array.from(areaMap.entries())) {
+      const areaPrices = areaListings.map((l) => parsePrice(l.dealOrWarrantPrc)).filter((p) => p > 0);
+      const pyeong = Math.round(area2 * 0.3025);
+      areaSnapshots.push({
+        area2,
+        label: `${area2}㎡ (${pyeong}평)`,
+        snapshot: {
+          date: dateStr,
+          totalCount: areaListings.length,
+          minPrice: areaPrices.length ? Math.min(...areaPrices) : 0,
+          maxPrice: areaPrices.length ? Math.max(...areaPrices) : 0,
+          avgPrice: areaPrices.length ? Math.round(areaPrices.reduce((a, b) => a + b, 0) / areaPrices.length) : 0,
+          listings: areaListings.map((l) => ({
+            dealOrWarrantPrc: l.dealOrWarrantPrc,
+            area2: l.area2,
+            floorInfo: l.floorInfo,
+          })),
+        },
+      });
+    }
+
+    let aptData = data.apartments.find((a) => a.complexNo === apt.complexNo);
+    if (!aptData) {
+      aptData = { complexNo: apt.complexNo, name: apt.name, snapshots: [], byArea: [] };
+      data.apartments.push(aptData);
+    }
+    if (!aptData.byArea) aptData.byArea = [];
+
+    // 전체 합산 업데이트
     aptData.snapshots = aptData.snapshots.filter((s) => s.date !== dateStr);
     aptData.snapshots.push(snapshot);
-
-    // Keep only last MAX_DAYS
     if (aptData.snapshots.length > MAX_DAYS) {
       aptData.snapshots = aptData.snapshots.slice(-MAX_DAYS);
     }
 
-    console.log(`  → ${listings.length} listings, avg ${snapshot.avgPrice}만원`);
+    // 평형별 업데이트
+    for (const { area2, label, snapshot: areaSnap } of areaSnapshots) {
+      let group = aptData.byArea.find((g) => g.area2 === area2);
+      if (!group) {
+        group = { area2, label, snapshots: [] };
+        aptData.byArea.push(group);
+      }
+      group.label = label;
+      group.snapshots = group.snapshots.filter((s) => s.date !== dateStr);
+      group.snapshots.push(areaSnap);
+      if (group.snapshots.length > MAX_DAYS) {
+        group.snapshots = group.snapshots.slice(-MAX_DAYS);
+      }
+    }
+    // area2 기준 오름차순 정렬
+    aptData.byArea.sort((a, b) => a.area2 - b.area2);
+
+    console.log(`  → ${listings.length} listings, avg ${snapshot.avgPrice}만원 (${areaSnapshots.length} area groups)`);
   }
+
+  await closeBrowser();
 
   data.lastUpdated = dateStr;
   fs.writeFileSync(DATA_PATH, JSON.stringify(data, null, 2), 'utf-8');

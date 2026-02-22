@@ -26,10 +26,17 @@ export interface DailySnapshot {
   listings: Pick<Listing, 'dealOrWarrantPrc' | 'area2' | 'floorInfo'>[];
 }
 
+export interface AreaGroup {
+  area2: number;       // 전용면적 (㎡)
+  label: string;       // "59㎡ (24평)" 형태
+  snapshots: DailySnapshot[];
+}
+
 export interface ApartmentData {
   complexNo: number;
   name: string;
-  snapshots: DailySnapshot[];
+  snapshots: DailySnapshot[];        // 전체 합산 (기존)
+  byArea: AreaGroup[];               // 평형별 분리
 }
 
 export interface ListingsData {
