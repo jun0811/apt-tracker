@@ -20,10 +20,10 @@ function parsePrice(raw: string): number {
 }
 
 function today(): string {
-  // KST = UTC + 9 hours
+  // Intl로 KST 기준 날짜 산출 (로컬 TZ 무관)
   const now = new Date();
-  const kst = new Date(now.getTime() + 9 * 60 * 60 * 1000);
-  return format(kst, 'yyyy-MM-dd');
+  const kstStr = now.toLocaleDateString('en-CA', { timeZone: 'Asia/Seoul' }); // YYYY-MM-DD
+  return kstStr;
 }
 
 async function main() {
