@@ -23,7 +23,7 @@ export interface DailySnapshot {
   minPrice: number; // 만원 단위
   maxPrice: number;
   avgPrice: number;
-  listings: Pick<Listing, 'dealOrWarrantPrc' | 'area1' | 'area2' | 'floorInfo'>[];
+  listings: Pick<Listing, 'articleNo' | 'dealOrWarrantPrc' | 'area1' | 'area2' | 'floorInfo'>[];
 }
 
 export interface AreaGroup {
@@ -38,6 +38,16 @@ export interface ApartmentData {
   name: string;
   snapshots: DailySnapshot[];        // 전체 합산 (기존)
   byArea: AreaGroup[];               // 평형별 분리
+}
+
+export interface MarketIndicators {
+  hasEnoughData: boolean;
+  priceDropCount: number;
+  priceRiseCount: number;
+  totalTracked: number;
+  newCount: number;
+  removedCount: number;
+  avgDaysOnMarket: number;
 }
 
 export interface ListingsData {

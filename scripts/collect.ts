@@ -77,6 +77,7 @@ async function main() {
       maxPrice: prices.length ? Math.max(...prices) : 0,
       avgPrice: prices.length ? Math.round(prices.reduce((a, b) => a + b, 0) / prices.length) : 0,
       listings: listings.map((l) => ({
+        articleNo: l.articleNo,
         dealOrWarrantPrc: l.dealOrWarrantPrc,
         area1: l.area1,
         area2: l.area2,
@@ -107,6 +108,7 @@ async function main() {
           maxPrice: areaPrices.length ? Math.max(...areaPrices) : 0,
           avgPrice: areaPrices.length ? Math.round(areaPrices.reduce((a, b) => a + b, 0) / areaPrices.length) : 0,
           listings: areaListings.map((l) => ({
+            articleNo: l.articleNo,
             dealOrWarrantPrc: l.dealOrWarrantPrc,
             area1: l.area1,
             area2: l.area2,

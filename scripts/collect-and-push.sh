@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /Users/sojungkim/Desktop/project/apt-tracker
 
-export PATH="/usr/local/bin:/opt/homebrew/bin:$PATH"
+export PATH="/Users/sojungkim/.nvm/versions/node/v22.12.0/bin:/usr/local/bin:/opt/homebrew/bin:$PATH"
 
 echo "[$(date)] Starting collect..."
 npm run collect

@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { ListingsData } from '@/lib/types';
 import ApartmentSummary from './ApartmentSummary';
+import MarketIndicators from './MarketIndicators';
 import ListingCountChart from './ListingCountChart';
 import PriceChart from './PriceChart';
 
@@ -78,6 +79,8 @@ export default function Dashboard({ data }: DashboardProps) {
           {selected && selected.snapshots.length > 0 ? (
             <div className="space-y-6">
               <ApartmentSummary data={selected} />
+
+              <MarketIndicators snapshots={activeSnapshots} />
 
               {/* 평형 탭 */}
               {selected.byArea && selected.byArea.length > 0 && (
