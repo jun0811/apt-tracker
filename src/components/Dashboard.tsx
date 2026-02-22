@@ -14,7 +14,12 @@ interface DashboardProps {
 export default function Dashboard({ data }: DashboardProps) {
   const [selectedIdx, setSelectedIdx] = useState(0);
   const [selectedArea, setSelectedArea] = useState<number | null>(null); // null = 전체
+  const [searchQuery, setSearchQuery] = useState('');
   const selected = data.apartments[selectedIdx] ?? null;
+
+  const filteredApartments = data.apartments
+    .map((apt, idx) => ({ apt, idx }))
+    .filter(({ apt }) => apt.name.toLowerCase().includes(searchQuery.toLowerCase()));
 
   // 아파트 변경 시 평형 선택 초기화
   const handleAptChange = (idx: number) => {
@@ -42,8 +47,17 @@ export default function Dashboard({ data }: DashboardProps) {
       <div className="max-w-6xl mx-auto flex">
         {/* Sidebar - desktop */}
         <aside className="hidden md:block w-56 shrink-0 border-r bg-white min-h-[calc(100vh-65px)]">
-          <nav className="py-2">
-            {data.apartments.map((apt, idx) => (
+          <div className="p-2">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="아파트 검색"
+              className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-blue-400"
+            />
+          </div>
+          <nav className="py-1">
+            {filteredApartments.map(({ apt, idx }) => (
               <button
                 key={apt.complexNo}
                 onClick={() => handleAptChange(idx)}
@@ -56,19 +70,29 @@ export default function Dashboard({ data }: DashboardProps) {
                 {apt.name}
               </button>
             ))}
+            {filteredApartments.length === 0 && (
+              <p className="px-4 py-3 text-sm text-gray-400">결과 없음</p>
+            )}
           </nav>
         </aside>
 
         {/* Main content */}
         <main className="flex-1 px-4 py-6 md:px-8">
           {/* Select box - mobile */}
-          <div className="md:hidden mb-6">
+          <div className="md:hidden mb-6 space-y-2">
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="아파트 검색"
+              className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-1 focus:ring-blue-400"
+            />
             <select
               value={selectedIdx}
               onChange={(e) => handleAptChange(Number(e.target.value))}
               className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm bg-white"
             >
-              {data.apartments.map((apt, idx) => (
+              {filteredApartments.map(({ apt, idx }) => (
                 <option key={apt.complexNo} value={idx}>
                   {apt.name}
                 </option>
