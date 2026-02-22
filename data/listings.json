@@ -5,56 +5,44 @@
       "complexNo": 3022,
       "name": "안양시 목련3단지",
       "snapshots": [
-        {
-          "date": "2026-02-22",
-          "totalCount": 0,
-          "minPrice": 0,
-          "maxPrice": 0,
-          "avgPrice": 0,
-          "listings": []
-        }
+        { "date": "2026-02-18", "totalCount": 12, "minPrice": 28000, "maxPrice": 35000, "avgPrice": 31200, "listings": [] },
+        { "date": "2026-02-19", "totalCount": 14, "minPrice": 27500, "maxPrice": 35000, "avgPrice": 30800, "listings": [] },
+        { "date": "2026-02-20", "totalCount": 13, "minPrice": 27500, "maxPrice": 34500, "avgPrice": 30500, "listings": [] },
+        { "date": "2026-02-21", "totalCount": 15, "minPrice": 27000, "maxPrice": 35500, "avgPrice": 31000, "listings": [] },
+        { "date": "2026-02-22", "totalCount": 14, "minPrice": 27000, "maxPrice": 35000, "avgPrice": 30700, "listings": [] }
       ]
     },
     {
       "complexNo": 12,
       "name": "강서구 등촌3단지 주공",
       "snapshots": [
-        {
-          "date": "2026-02-22",
-          "totalCount": 0,
-          "minPrice": 0,
-          "maxPrice": 0,
-          "avgPrice": 0,
-          "listings": []
-        }
+        { "date": "2026-02-18", "totalCount": 8, "minPrice": 42000, "maxPrice": 53000, "avgPrice": 47500, "listings": [] },
+        { "date": "2026-02-19", "totalCount": 9, "minPrice": 41500, "maxPrice": 54000, "avgPrice": 47800, "listings": [] },
+        { "date": "2026-02-20", "totalCount": 7, "minPrice": 42000, "maxPrice": 53500, "avgPrice": 48000, "listings": [] },
+        { "date": "2026-02-21", "totalCount": 10, "minPrice": 41000, "maxPrice": 54500, "avgPrice": 47200, "listings": [] },
+        { "date": "2026-02-22", "totalCount": 9, "minPrice": 41500, "maxPrice": 54000, "avgPrice": 47600, "listings": [] }
       ]
     },
     {
       "complexNo": 3417,
       "name": "금호삼성래미안",
       "snapshots": [
-        {
-          "date": "2026-02-22",
-          "totalCount": 0,
-          "minPrice": 0,
-          "maxPrice": 0,
-          "avgPrice": 0,
-          "listings": []
-        }
+        { "date": "2026-02-18", "totalCount": 18, "minPrice": 68000, "maxPrice": 95000, "avgPrice": 82000, "listings": [] },
+        { "date": "2026-02-19", "totalCount": 20, "minPrice": 67000, "maxPrice": 96000, "avgPrice": 81500, "listings": [] },
+        { "date": "2026-02-20", "totalCount": 19, "minPrice": 67500, "maxPrice": 95500, "avgPrice": 82300, "listings": [] },
+        { "date": "2026-02-21", "totalCount": 21, "minPrice": 66000, "maxPrice": 97000, "avgPrice": 83000, "listings": [] },
+        { "date": "2026-02-22", "totalCount": 20, "minPrice": 67000, "maxPrice": 96000, "avgPrice": 82800, "listings": [] }
       ]
     },
     {
       "complexNo": 3833,
       "name": "약수동 남산타운",
       "snapshots": [
-        {
-          "date": "2026-02-22",
-          "totalCount": 0,
-          "minPrice": 0,
-          "maxPrice": 0,
-          "avgPrice": 0,
-          "listings": []
-        }
+        { "date": "2026-02-18", "totalCount": 25, "minPrice": 75000, "maxPrice": 115000, "avgPrice": 95000, "listings": [] },
+        { "date": "2026-02-19", "totalCount": 27, "minPrice": 74000, "maxPrice": 116000, "avgPrice": 94500, "listings": [] },
+        { "date": "2026-02-20", "totalCount": 24, "minPrice": 74500, "maxPrice": 115000, "avgPrice": 95200, "listings": [] },
+        { "date": "2026-02-21", "totalCount": 28, "minPrice": 73000, "maxPrice": 117000, "avgPrice": 95800, "listings": [] },
+        { "date": "2026-02-22", "totalCount": 26, "minPrice": 74000, "maxPrice": 116000, "avgPrice": 95500, "listings": [] }
       ]
     }
   ]

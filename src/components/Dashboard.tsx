@@ -1,31 +1,86 @@
 'use client';
 
+import { useState } from 'react';
 import { ListingsData } from '@/lib/types';
-import ApartmentCard from './ApartmentCard';
+import ApartmentSummary from './ApartmentSummary';
+import ListingCountChart from './ListingCountChart';
+import PriceChart from './PriceChart';
 
 interface DashboardProps {
   data: ListingsData;
 }
 
 export default function Dashboard({ data }: DashboardProps) {
+  const [selectedIdx, setSelectedIdx] = useState(0);
+  const selected = data.apartments[selectedIdx] ?? null;
+
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
-      <header className="mb-8">
-        <h1 className="text-2xl font-bold">아파트 매물 추적기</h1>
-        <p className="text-sm text-gray-500 mt-1">
-          마지막 업데이트: {data.lastUpdated}
-        </p>
+    <div className="min-h-screen bg-gray-50">
+      <header className="bg-white border-b px-4 py-4">
+        <div className="max-w-6xl mx-auto flex items-center justify-between">
+          <h1 className="text-xl font-bold">아파트 매물 추적기</h1>
+          <p className="text-xs text-gray-400">
+            마지막 업데이트: {data.lastUpdated}
+          </p>
+        </div>
       </header>
 
-      {data.apartments.length === 0 ? (
-        <p className="text-gray-400">등록된 아파트 데이터가 없습니다.</p>
-      ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {data.apartments.map((apt) => (
-            <ApartmentCard key={apt.complexNo} data={apt} />
-          ))}
-        </div>
-      )}
+      <div className="max-w-6xl mx-auto flex">
+        {/* Sidebar - desktop */}
+        <aside className="hidden md:block w-56 shrink-0 border-r bg-white min-h-[calc(100vh-65px)]">
+          <nav className="py-2">
+            {data.apartments.map((apt, idx) => (
+              <button
+                key={apt.complexNo}
+                onClick={() => setSelectedIdx(idx)}
+                className={`w-full text-left px-4 py-3 text-sm transition-colors ${
+                  idx === selectedIdx
+                    ? 'bg-blue-50 text-blue-700 font-semibold border-r-2 border-blue-600'
+                    : 'text-gray-700 hover:bg-gray-50'
+                }`}
+              >
+                {apt.name}
+              </button>
+            ))}
+          </nav>
+        </aside>
+
+        {/* Main content */}
+        <main className="flex-1 px-4 py-6 md:px-8">
+          {/* Select box - mobile */}
+          <div className="md:hidden mb-6">
+            <select
+              value={selectedIdx}
+              onChange={(e) => setSelectedIdx(Number(e.target.value))}
+              className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm bg-white"
+            >
+              {data.apartments.map((apt, idx) => (
+                <option key={apt.complexNo} value={idx}>
+                  {apt.name}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {selected && selected.snapshots.length > 0 ? (
+            <div className="space-y-6">
+              <ApartmentSummary data={selected} />
+
+              <section className="bg-white rounded-xl shadow-sm p-6">
+                <h3 className="text-sm font-semibold text-gray-700 mb-4">매물 수 추이</h3>
+                <ListingCountChart snapshots={selected.snapshots} />
+              </section>
+
+              <section className="bg-white rounded-xl shadow-sm p-6">
+                <h3 className="text-sm font-semibold text-gray-700 mb-4">가격 추이</h3>
+                <PriceChart snapshots={selected.snapshots} />
+              </section>
+            </div>
+          ) : (
+            <p className="text-gray-400">데이터가 없습니다.</p>
+          )}
+        </main>
+      </div>
     </div>
   );
 }

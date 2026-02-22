@@ -1,14 +1,14 @@
 'use client';
 
 import {
-  ComposedChart,
-  Bar,
+  LineChart,
   Line,
   XAxis,
   YAxis,
   Tooltip,
   ResponsiveContainer,
   CartesianGrid,
+  Legend,
 } from 'recharts';
 import { format, parseISO } from 'date-fns';
 import { DailySnapshot } from '@/lib/types';
@@ -17,27 +17,26 @@ function formatPrice(value: number): string {
   if (value >= 10000) {
     const eok = Math.floor(value / 10000);
     const man = value % 10000;
-    return man > 0
-      ? `${eok}억 ${man.toLocaleString()}만`
-      : `${eok}억`;
+    return man > 0 ? `${eok}억 ${man.toLocaleString()}만` : `${eok}억`;
   }
   return `${value.toLocaleString()}만`;
 }
 
-interface PriceChartProps {
+interface Props {
   snapshots: DailySnapshot[];
 }
 
-export default function PriceChart({ snapshots }: PriceChartProps) {
+export default function PriceChart({ snapshots }: Props) {
   const chartData = snapshots.map((s) => ({
     date: s.date,
-    totalCount: s.totalCount,
     avgPrice: s.avgPrice,
+    minPrice: s.minPrice,
+    maxPrice: s.maxPrice,
   }));
 
   return (
-    <ResponsiveContainer width="100%" height={300}>
-      <ComposedChart data={chartData}>
+    <ResponsiveContainer width="100%" height={280}>
+      <LineChart data={chartData}>
         <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
         <XAxis
           dataKey="date"
@@ -45,44 +44,34 @@ export default function PriceChart({ snapshots }: PriceChartProps) {
           fontSize={12}
         />
         <YAxis
-          yAxisId="left"
-          orientation="left"
-          fontSize={12}
-          label={{ value: '매물 수', angle: -90, position: 'insideLeft', fontSize: 12 }}
-        />
-        <YAxis
-          yAxisId="right"
-          orientation="right"
           fontSize={12}
           tickFormatter={(v: number) => formatPrice(v)}
-          label={{ value: '평균가', angle: 90, position: 'insideRight', fontSize: 12 }}
         />
         <Tooltip
           formatter={(value, name) => {
-            const v = Number(value);
-            if (name === 'avgPrice') return [formatPrice(v), '평균가'];
-            return [v, '매물 수'];
+            const labels: Record<string, string> = {
+              avgPrice: '평균가',
+              minPrice: '최저가',
+              maxPrice: '최고가',
+            };
+            return [formatPrice(Number(value)), labels[String(name)] ?? name];
           }}
           labelFormatter={(label) => format(parseISO(String(label)), 'yyyy-MM-dd')}
         />
-        <Bar
-          yAxisId="left"
-          dataKey="totalCount"
-          fill="#8884d8"
-          name="totalCount"
-          barSize={20}
-          radius={[2, 2, 0, 0]}
+        <Legend
+          formatter={(value: string) => {
+            const labels: Record<string, string> = {
+              avgPrice: '평균가',
+              minPrice: '최저가',
+              maxPrice: '최고가',
+            };
+            return labels[value] ?? value;
+          }}
         />
-        <Line
-          yAxisId="right"
-          type="monotone"
-          dataKey="avgPrice"
-          stroke="#ff7300"
-          name="avgPrice"
-          strokeWidth={2}
-          dot={{ r: 3 }}
-        />
-      </ComposedChart>
+        <Line type="monotone" dataKey="maxPrice" stroke="#ef4444" strokeWidth={1.5} dot={{ r: 2 }} name="maxPrice" />
+        <Line type="monotone" dataKey="avgPrice" stroke="#f97316" strokeWidth={2} dot={{ r: 3 }} name="avgPrice" />
+        <Line type="monotone" dataKey="minPrice" stroke="#22c55e" strokeWidth={1.5} dot={{ r: 2 }} name="minPrice" />
+      </LineChart>
     </ResponsiveContainer>
   );
 }

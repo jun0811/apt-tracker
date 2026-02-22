@@ -31,7 +31,9 @@ async function main() {
   const data: ListingsData = JSON.parse(raw);
   const dateStr = today();
 
-  for (const apt of APARTMENTS) {
+  for (let i = 0; i < APARTMENTS.length; i++) {
+    const apt = APARTMENTS[i];
+    if (i > 0) await new Promise((r) => setTimeout(r, 2000));
     console.log(`Fetching ${apt.name} (${apt.complexNo})...`);
     const listings = await fetchListings(apt.complexNo);
 
