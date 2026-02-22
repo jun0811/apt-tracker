@@ -6,6 +6,8 @@ import { closeBrowser, fetchListings } from '../src/lib/naver';
 import { AreaGroup, DailySnapshot, ListingsData } from '../src/lib/types';
 
 const DATA_PATH = path.resolve(__dirname, '../data/listings.json');
+const BACKUP_DIR = path.resolve(__dirname, '../data/backups');
+const MAX_BACKUPS = 7;
 
 /** "5억 2,000" → 52000, "3억" → 30000, "9,500" → 9500 */
 function parsePrice(raw: string): number {
@@ -26,7 +28,27 @@ function today(): string {
   return kstStr;
 }
 
+function backup() {
+  if (!fs.existsSync(BACKUP_DIR)) fs.mkdirSync(BACKUP_DIR, { recursive: true });
+  const raw = fs.readFileSync(DATA_PATH, 'utf-8');
+  const dateStr = today();
+  fs.writeFileSync(path.join(BACKUP_DIR, `listings-${dateStr}.json`), raw, 'utf-8');
+  console.log(`Backup saved: listings-${dateStr}.json`);
+
+  // 오래된 백업 정리
+  const files = fs.readdirSync(BACKUP_DIR)
+    .filter((f) => f.startsWith('listings-') && f.endsWith('.json'))
+    .sort();
+  if (files.length > MAX_BACKUPS) {
+    for (const old of files.slice(0, files.length - MAX_BACKUPS)) {
+      fs.unlinkSync(path.join(BACKUP_DIR, old));
+      console.log(`Removed old backup: ${old}`);
+    }
+  }
+}
+
 async function main() {
+  backup();
   const raw = fs.readFileSync(DATA_PATH, 'utf-8');
   const data: ListingsData = JSON.parse(raw);
   const dateStr = today();
