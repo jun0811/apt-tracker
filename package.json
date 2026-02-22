@@ -8,6 +8,7 @@
     "build": "next build",
     "start": "next start",
     "collect": "tsx scripts/collect.ts",
+    "fix": "tsx scripts/fix-data.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
