@@ -1,0 +1,61 @@
+{
+  "lastUpdated": "2026-02-22",
+  "apartments": [
+    {
+      "complexNo": 3022,
+      "name": "안양시 목련3단지",
+      "snapshots": [
+        {
+          "date": "2026-02-22",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
+        }
+      ]
+    },
+    {
+      "complexNo": 12,
+      "name": "강서구 등촌3단지 주공",
+      "snapshots": [
+        {
+          "date": "2026-02-22",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
+        }
+      ]
+    },
+    {
+      "complexNo": 3417,
+      "name": "금호삼성래미안",
+      "snapshots": [
+        {
+          "date": "2026-02-22",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
+        }
+      ]
+    },
+    {
+      "complexNo": 3833,
+      "name": "약수동 남산타운",
+      "snapshots": [
+        {
+          "date": "2026-02-22",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
+        }
+      ]
+    }
+  ]
+}
