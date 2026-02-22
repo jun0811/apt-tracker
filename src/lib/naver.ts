@@ -1,56 +1,64 @@
-import https from 'https';
+import { chromium } from 'playwright-extra';
+import StealthPlugin from 'puppeteer-extra-plugin-stealth';
+import type { Browser, BrowserContext } from 'playwright';
 import { Listing } from './types';
 
-const HEADERS: Record<string, string> = {
-  'Accept': 'application/json, text/plain, */*',
-  'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
-  'Cache-Control': 'no-cache',
-  'Referer': 'https://new.land.naver.com/complexes/',
-  'Sec-Ch-Ua': '"Chromium";v="131", "Not_A Brand";v="24"',
-  'Sec-Ch-Ua-Mobile': '?0',
-  'Sec-Ch-Ua-Platform': '"macOS"',
-  'Sec-Fetch-Dest': 'empty',
-  'Sec-Fetch-Mode': 'cors',
-  'Sec-Fetch-Site': 'same-origin',
-  'User-Agent':
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
-};
+chromium.use(StealthPlugin());
 
-function httpsGet(url: string): Promise<{ status: number; body: string }> {
-  return new Promise((resolve, reject) => {
-    const req = https.get(url, { headers: HEADERS }, (res) => {
-      let body = '';
-      res.on('data', (chunk) => (body += chunk));
-      res.on('end', () => resolve({ status: res.statusCode ?? 0, body }));
+let browser: Browser | null = null;
+let context: BrowserContext | null = null;
+
+async function getContext() {
+  if (!browser) {
+    browser = await chromium.launch({ headless: true });
+  }
+  if (!context) {
+    context = await browser.newContext({
+      userAgent:
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+      viewport: { width: 1440, height: 900 },
     });
-    req.on('error', reject);
-    req.setTimeout(15000, () => {
-      req.destroy();
-      reject(new Error('Request timeout'));
-    });
-  });
+  }
+  return context;
+}
+
+export async function closeBrowser() {
+  if (context) { await context.close(); context = null; }
+  if (browser) { await browser.close(); browser = null; }
 }
 
 export async function fetchListings(complexNo: number): Promise<Listing[]> {
-  const url = `https://new.land.naver.com/api/articles/complex/${complexNo}?realEstateType=APT%3AABYG%3AJGC%3APRE&tradeType=A1&tag=%3A%3A%3A%3A%3A%3A%3A%3A&priceMin=0&priceMax=900000000&areaMin=0&areaMax=900000000&showArticle=false&sameAddressGroup=false&priceType=RETAIL&page=1&complexNo=${complexNo}&type=list&order=rank`;
+  const ctx = await getContext();
+  const page = await ctx.newPage();
+
+  let listings: Listing[] = [];
 
   try {
-    const { status, body } = await httpsGet(url);
-    if (status === 429) {
-      throw new Error('RATE_LIMITED');
-    }
-    if (status !== 200) {
-      console.error(`[naver] ${complexNo} responded ${status}: ${body.slice(0, 200)}`);
-      return [];
-    }
-    const data = JSON.parse(body);
-    return (data.articleList ?? []) as Listing[];
-  } catch (err) {
-    const msg = err instanceof Error ? err.message : String(err);
-    if (msg === 'RATE_LIMITED') throw err;
-    console.error(`[naver] Failed to fetch ${complexNo}:`, msg);
-    return [];
-  }
-}
+    // API 응답 인터셉트 설정
+    const apiPromise = page.waitForResponse(
+      (res) =>
+        res.url().includes(`/api/articles/complex/${complexNo}`) &&
+        res.status() === 200,
+      { timeout: 20000 },
+    );
 
-export async function closeBrowser() {}
+    // 단지 페이지 이동 (매물 목록 API가 자동 호출됨)
+    await page.goto(
+      `https://new.land.naver.com/complexes/${complexNo}?ms=37.5,127,16&a=APT&e=RETAIL`,
+      { waitUntil: 'networkidle', timeout: 30000 },
+    );
+
+    const response = await apiPromise;
+    const data = await response.json();
+    // 매매(A1)만 필터 — 전세(B1), 월세(B2) 제외
+    listings = ((data.articleList ?? []) as any[])
+      .filter((item) => item.tradeTypeCode === 'A1')
+      .map((item) => item as Listing);
+  } catch (err) {
+    console.error(`[naver] Failed to crawl ${complexNo}:`, err instanceof Error ? err.message : err);
+  } finally {
+    await page.close();
+  }
+
+  return listings;
+}
