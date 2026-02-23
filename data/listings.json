@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-02-24",
   "apartments": [
     {
       "complexNo": 3022,
@@ -242,6 +242,14 @@
               "floorInfo": "9/20"
             }
           ]
+        },
+        {
+          "date": "2026-02-24",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
         }
       ],
       "byArea": [
@@ -802,6 +810,14 @@
               "floorInfo": "저/15"
             }
           ]
+        },
+        {
+          "date": "2026-02-24",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
         }
       ],
       "byArea": [
@@ -1364,6 +1380,14 @@
               "floorInfo": "저/15"
             }
           ]
+        },
+        {
+          "date": "2026-02-24",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
         }
       ],
       "byArea": [
@@ -1942,6 +1966,14 @@
               "floorInfo": "18/18"
             }
           ]
+        },
+        {
+          "date": "2026-02-24",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
         }
       ],
       "byArea": [
@@ -2505,6 +2537,14 @@
               "floorInfo": "중/17"
             }
           ]
+        },
+        {
+          "date": "2026-02-24",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
         }
       ],
       "byArea": [
@@ -2961,6 +3001,14 @@
               "floorInfo": "1/15"
             }
           ]
+        },
+        {
+          "date": "2026-02-24",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
         }
       ],
       "byArea": [
@@ -3401,6 +3449,14 @@
               "floorInfo": "저/15"
             }
           ]
+        },
+        {
+          "date": "2026-02-24",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
         }
       ],
       "byArea": [
@@ -3918,6 +3974,14 @@
               "floorInfo": "중/13"
             }
           ]
+        },
+        {
+          "date": "2026-02-24",
+          "totalCount": 0,
+          "minPrice": 0,
+          "maxPrice": 0,
+          "avgPrice": 0,
+          "listings": []
         }
       ],
       "byArea": [
