@@ -1,7 +1,7 @@
 name: Collect Listings
 on:
-  schedule:
-    - cron: '0 15 * * *' # 매일 0시 KST = 15:00 UTC (프록시 추가 시 활성화)
+  # schedule:
+  #   - cron: '0 15 * * *' # 매일 0시 KST = 15:00 UTC (프록시 추가 시 활성화)
   workflow_dispatch: {}
 jobs:
   collect:

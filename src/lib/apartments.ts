@@ -9,6 +9,8 @@ export const APARTMENTS: ApartmentConfig[] = [
   { name: '사당우성2단지', complexNo: 380, shortName: '사당우성2' },
   { name: '사당우성3단지', complexNo: 381, shortName: '사당우성3' },
   { name: 'DMC한양', complexNo: 426, shortName: 'DMC한양' },
+  { name: '염창 동아1차', complexNo: 869, shortName: '염창동아1' },
+  { name: '염창 동아3차', complexNo: 870, shortName: '염창동아3' },
 ];
 
 export const MAX_DAYS = 28;

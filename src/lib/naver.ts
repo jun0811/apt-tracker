@@ -27,38 +27,46 @@ export async function closeBrowser() {
   if (browser) { await browser.close(); browser = null; }
 }
 
-export async function fetchListings(complexNo: number): Promise<Listing[]> {
-  const ctx = await getContext();
-  const page = await ctx.newPage();
+export async function fetchListings(complexNo: number, retries = 2): Promise<Listing[]> {
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const ctx = await getContext();
+    const page = await ctx.newPage();
 
-  let listings: Listing[] = [];
+    try {
+      // API 응답 인터셉트 설정
+      const apiPromise = page.waitForResponse(
+        (res) =>
+          res.url().includes(`/api/articles/complex/${complexNo}`) &&
+          res.status() === 200,
+        { timeout: 30000 },
+      );
+      // unhandled rejection 방지
+      apiPromise.catch(() => {});
 
-  try {
-    // API 응답 인터셉트 설정
-    const apiPromise = page.waitForResponse(
-      (res) =>
-        res.url().includes(`/api/articles/complex/${complexNo}`) &&
-        res.status() === 200,
-      { timeout: 20000 },
-    );
+      // 단지 페이지 이동 (매물 목록 API가 자동 호출됨)
+      await page.goto(
+        `https://new.land.naver.com/complexes/${complexNo}?ms=37.5,127,16&a=APT&e=RETAIL`,
+        { waitUntil: 'networkidle', timeout: 30000 },
+      );
 
-    // 단지 페이지 이동 (매물 목록 API가 자동 호출됨)
-    await page.goto(
-      `https://new.land.naver.com/complexes/${complexNo}?ms=37.5,127,16&a=APT&e=RETAIL`,
-      { waitUntil: 'networkidle', timeout: 30000 },
-    );
-
-    const response = await apiPromise;
-    const data = await response.json();
-    // 매매(A1)만 필터 — 전세(B1), 월세(B2) 제외
-    listings = ((data.articleList ?? []) as any[])
-      .filter((item) => item.tradeTypeCode === 'A1')
-      .map((item) => item as Listing);
-  } catch (err) {
-    console.error(`[naver] Failed to crawl ${complexNo}:`, err instanceof Error ? err.message : err);
-  } finally {
-    await page.close();
+      const response = await apiPromise;
+      const data = await response.json();
+      // 매매(A1)만 필터 — 전세(B1), 월세(B2) 제외
+      const listings = ((data.articleList ?? []) as any[])
+        .filter((item) => item.tradeTypeCode === 'A1')
+        .map((item) => item as Listing);
+      return listings;
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : String(err);
+      console.error(`[naver] Failed to crawl ${complexNo} (attempt ${attempt + 1}/${retries + 1}):`, msg);
+      if (attempt < retries) {
+        console.log(`  ↻ Retrying in 10s...`);
+        await new Promise((r) => setTimeout(r, 10000));
+      }
+    } finally {
+      await page.close();
+    }
   }
 
-  return listings;
+  return [];
 }
