@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04",
+  "lastUpdated": "2026-03-06",
   "apartments": [
     {
       "complexNo": 3022,
@@ -1168,6 +1168,92 @@
               "floorInfo": "1/14"
             }
           ]
+        },
+        {
+          "date": "2026-03-06",
+          "totalCount": 11,
+          "minPrice": 60000,
+          "maxPrice": 93000,
+          "avgPrice": 77000,
+          "listings": [
+            {
+              "articleNo": "2612127968",
+              "dealOrWarrantPrc": "9억 3,000",
+              "area1": 74,
+              "area2": 56,
+              "floorInfo": "9/20"
+            },
+            {
+              "articleNo": "2611994954",
+              "dealOrWarrantPrc": "7억 5,000",
+              "area1": 68,
+              "area2": 50,
+              "floorInfo": "9/14"
+            },
+            {
+              "articleNo": "2611994363",
+              "dealOrWarrantPrc": "9억 2,000",
+              "area1": 74,
+              "area2": 56,
+              "floorInfo": "20/20"
+            },
+            {
+              "articleNo": "2611576396",
+              "dealOrWarrantPrc": "7억 8,000",
+              "area1": 68,
+              "area2": 50,
+              "floorInfo": "2/14"
+            },
+            {
+              "articleNo": "2611108871",
+              "dealOrWarrantPrc": "7억 6,000",
+              "area1": 68,
+              "area2": 50,
+              "floorInfo": "9/14"
+            },
+            {
+              "articleNo": "2611059600",
+              "dealOrWarrantPrc": "7억 5,000",
+              "area1": 68,
+              "area2": 50,
+              "floorInfo": "10/14"
+            },
+            {
+              "articleNo": "2611168438",
+              "dealOrWarrantPrc": "7억 5,000",
+              "area1": 68,
+              "area2": 50,
+              "floorInfo": "10/14"
+            },
+            {
+              "articleNo": "2610554320",
+              "dealOrWarrantPrc": "7억 5,000",
+              "area1": 68,
+              "area2": 50,
+              "floorInfo": "8/14"
+            },
+            {
+              "articleNo": "2610501946",
+              "dealOrWarrantPrc": "7억 5,000",
+              "area1": 68,
+              "area2": 50,
+              "floorInfo": "10/14"
+            },
+            {
+              "articleNo": "2610467784",
+              "dealOrWarrantPrc": "7억 3,000",
+              "area1": 68,
+              "area2": 50,
+              "floorInfo": "11/14"
+            },
+            {
+              "articleNo": "2610482750",
+              "dealOrWarrantPrc": "6억",
+              "area1": 56,
+              "area2": 41,
+              "floorInfo": "4/14"
+            }
+          ]
         }
       ],
       "byArea": [
@@ -1555,6 +1641,22 @@
             },
             {
               "date": "2026-03-04",
+              "totalCount": 1,
+              "minPrice": 60000,
+              "maxPrice": 60000,
+              "avgPrice": 60000,
+              "listings": [
+                {
+                  "articleNo": "2610482750",
+                  "dealOrWarrantPrc": "6억",
+                  "area1": 56,
+                  "area2": 41,
+                  "floorInfo": "4/14"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
               "totalCount": 1,
               "minPrice": 60000,
               "maxPrice": 60000,
@@ -2105,6 +2207,71 @@
                   "floorInfo": "1/14"
                 }
               ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 8,
+              "minPrice": 73000,
+              "maxPrice": 78000,
+              "avgPrice": 75250,
+              "listings": [
+                {
+                  "articleNo": "2611994954",
+                  "dealOrWarrantPrc": "7억 5,000",
+                  "area1": 68,
+                  "area2": 50,
+                  "floorInfo": "9/14"
+                },
+                {
+                  "articleNo": "2611576396",
+                  "dealOrWarrantPrc": "7억 8,000",
+                  "area1": 68,
+                  "area2": 50,
+                  "floorInfo": "2/14"
+                },
+                {
+                  "articleNo": "2611108871",
+                  "dealOrWarrantPrc": "7억 6,000",
+                  "area1": 68,
+                  "area2": 50,
+                  "floorInfo": "9/14"
+                },
+                {
+                  "articleNo": "2611059600",
+                  "dealOrWarrantPrc": "7억 5,000",
+                  "area1": 68,
+                  "area2": 50,
+                  "floorInfo": "10/14"
+                },
+                {
+                  "articleNo": "2611168438",
+                  "dealOrWarrantPrc": "7억 5,000",
+                  "area1": 68,
+                  "area2": 50,
+                  "floorInfo": "10/14"
+                },
+                {
+                  "articleNo": "2610554320",
+                  "dealOrWarrantPrc": "7억 5,000",
+                  "area1": 68,
+                  "area2": 50,
+                  "floorInfo": "8/14"
+                },
+                {
+                  "articleNo": "2610501946",
+                  "dealOrWarrantPrc": "7억 5,000",
+                  "area1": 68,
+                  "area2": 50,
+                  "floorInfo": "10/14"
+                },
+                {
+                  "articleNo": "2610467784",
+                  "dealOrWarrantPrc": "7억 3,000",
+                  "area1": 68,
+                  "area2": 50,
+                  "floorInfo": "11/14"
+                }
+              ]
             }
           ]
         },
@@ -2525,6 +2692,29 @@
               "maxPrice": 92000,
               "avgPrice": 92000,
               "listings": [
+                {
+                  "articleNo": "2611994363",
+                  "dealOrWarrantPrc": "9억 2,000",
+                  "area1": 74,
+                  "area2": 56,
+                  "floorInfo": "20/20"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 2,
+              "minPrice": 92000,
+              "maxPrice": 93000,
+              "avgPrice": 92500,
+              "listings": [
+                {
+                  "articleNo": "2612127968",
+                  "dealOrWarrantPrc": "9억 3,000",
+                  "area1": 74,
+                  "area2": 56,
+                  "floorInfo": "9/20"
+                },
                 {
                   "articleNo": "2611994363",
                   "dealOrWarrantPrc": "9억 2,000",
@@ -3892,6 +4082,148 @@
               "floorInfo": "4/15"
             }
           ]
+        },
+        {
+          "date": "2026-03-06",
+          "totalCount": 19,
+          "minPrice": 72000,
+          "maxPrice": 125000,
+          "avgPrice": 105053,
+          "listings": [
+            {
+              "articleNo": "2612006537",
+              "dealOrWarrantPrc": "11억",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "4/15"
+            },
+            {
+              "articleNo": "2612119263",
+              "dealOrWarrantPrc": "12억 5,000",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "4/15"
+            },
+            {
+              "articleNo": "2612006925",
+              "dealOrWarrantPrc": "10억 5,000",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "13/15"
+            },
+            {
+              "articleNo": "2611850721",
+              "dealOrWarrantPrc": "10억 7,000",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "3/15"
+            },
+            {
+              "articleNo": "2611796448",
+              "dealOrWarrantPrc": "10억 7,000",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "3/15"
+            },
+            {
+              "articleNo": "2610881561",
+              "dealOrWarrantPrc": "11억",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "5/15"
+            },
+            {
+              "articleNo": "2610866055",
+              "dealOrWarrantPrc": "11억",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "8/15"
+            },
+            {
+              "articleNo": "2610560079",
+              "dealOrWarrantPrc": "7억 3,000",
+              "area1": 53,
+              "area2": 37,
+              "floorInfo": "10/15"
+            },
+            {
+              "articleNo": "2610425449",
+              "dealOrWarrantPrc": "11억",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "11/15"
+            },
+            {
+              "articleNo": "2610303051",
+              "dealOrWarrantPrc": "9억",
+              "area1": 53,
+              "area2": 37,
+              "floorInfo": "3/15"
+            },
+            {
+              "articleNo": "2611075907",
+              "dealOrWarrantPrc": "7억 2,000",
+              "area1": 53,
+              "area2": 37,
+              "floorInfo": "5/15"
+            },
+            {
+              "articleNo": "2611746091",
+              "dealOrWarrantPrc": "10억 7,000",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "3/15"
+            },
+            {
+              "articleNo": "2609500590",
+              "dealOrWarrantPrc": "12억 5,000",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "4/15"
+            },
+            {
+              "articleNo": "2610733537",
+              "dealOrWarrantPrc": "11억",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "고/15"
+            },
+            {
+              "articleNo": "2609155477",
+              "dealOrWarrantPrc": "12억 5,000",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "4/15"
+            },
+            {
+              "articleNo": "2609086634",
+              "dealOrWarrantPrc": "10억",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2610424176",
+              "dealOrWarrantPrc": "11억",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "중/15"
+            },
+            {
+              "articleNo": "2610662531",
+              "dealOrWarrantPrc": "11억",
+              "area1": 79,
+              "area2": 58,
+              "floorInfo": "중/15"
+            },
+            {
+              "articleNo": "2608376769",
+              "dealOrWarrantPrc": "9억",
+              "area1": 53,
+              "area2": 37,
+              "floorInfo": "3/15"
+            }
+          ]
         }
       ],
       "byArea": [
@@ -4205,6 +4537,43 @@
                 {
                   "articleNo": "2610560079",
                   "dealOrWarrantPrc": "7억 5,000",
+                  "area1": 53,
+                  "area2": 37,
+                  "floorInfo": "10/15"
+                },
+                {
+                  "articleNo": "2610303051",
+                  "dealOrWarrantPrc": "9억",
+                  "area1": 53,
+                  "area2": 37,
+                  "floorInfo": "3/15"
+                },
+                {
+                  "articleNo": "2611075907",
+                  "dealOrWarrantPrc": "7억 2,000",
+                  "area1": 53,
+                  "area2": 37,
+                  "floorInfo": "5/15"
+                },
+                {
+                  "articleNo": "2608376769",
+                  "dealOrWarrantPrc": "9억",
+                  "area1": 53,
+                  "area2": 37,
+                  "floorInfo": "3/15"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 4,
+              "minPrice": 72000,
+              "maxPrice": 90000,
+              "avgPrice": 81250,
+              "listings": [
+                {
+                  "articleNo": "2610560079",
+                  "dealOrWarrantPrc": "7억 3,000",
                   "area1": 53,
                   "area2": 37,
                   "floorInfo": "10/15"
@@ -5345,6 +5714,120 @@
                   "area1": 79,
                   "area2": 58,
                   "floorInfo": "4/15"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 15,
+              "minPrice": 100000,
+              "maxPrice": 125000,
+              "avgPrice": 111400,
+              "listings": [
+                {
+                  "articleNo": "2612006537",
+                  "dealOrWarrantPrc": "11억",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "4/15"
+                },
+                {
+                  "articleNo": "2612119263",
+                  "dealOrWarrantPrc": "12억 5,000",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "4/15"
+                },
+                {
+                  "articleNo": "2612006925",
+                  "dealOrWarrantPrc": "10억 5,000",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "13/15"
+                },
+                {
+                  "articleNo": "2611850721",
+                  "dealOrWarrantPrc": "10억 7,000",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "3/15"
+                },
+                {
+                  "articleNo": "2611796448",
+                  "dealOrWarrantPrc": "10억 7,000",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "3/15"
+                },
+                {
+                  "articleNo": "2610881561",
+                  "dealOrWarrantPrc": "11억",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "5/15"
+                },
+                {
+                  "articleNo": "2610866055",
+                  "dealOrWarrantPrc": "11억",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "8/15"
+                },
+                {
+                  "articleNo": "2610425449",
+                  "dealOrWarrantPrc": "11억",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "11/15"
+                },
+                {
+                  "articleNo": "2611746091",
+                  "dealOrWarrantPrc": "10억 7,000",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "3/15"
+                },
+                {
+                  "articleNo": "2609500590",
+                  "dealOrWarrantPrc": "12억 5,000",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "4/15"
+                },
+                {
+                  "articleNo": "2610733537",
+                  "dealOrWarrantPrc": "11억",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "고/15"
+                },
+                {
+                  "articleNo": "2609155477",
+                  "dealOrWarrantPrc": "12억 5,000",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "4/15"
+                },
+                {
+                  "articleNo": "2609086634",
+                  "dealOrWarrantPrc": "10억",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "1/15"
+                },
+                {
+                  "articleNo": "2610424176",
+                  "dealOrWarrantPrc": "11억",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "중/15"
+                },
+                {
+                  "articleNo": "2610662531",
+                  "dealOrWarrantPrc": "11억",
+                  "area1": 79,
+                  "area2": 58,
+                  "floorInfo": "중/15"
                 }
               ]
             }
@@ -6728,6 +7211,148 @@
               "floorInfo": "중/14"
             }
           ]
+        },
+        {
+          "date": "2026-03-06",
+          "totalCount": 19,
+          "minPrice": 159000,
+          "maxPrice": 200000,
+          "avgPrice": 172158,
+          "listings": [
+            {
+              "articleNo": "2612101756",
+              "dealOrWarrantPrc": "15억 9,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2612100985",
+              "dealOrWarrantPrc": "15억 9,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2611873229",
+              "dealOrWarrantPrc": "15억 9,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2611895495",
+              "dealOrWarrantPrc": "15억 9,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2611898474",
+              "dealOrWarrantPrc": "15억 9,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2611578473",
+              "dealOrWarrantPrc": "15억 9,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2611589027",
+              "dealOrWarrantPrc": "15억 9,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2611659394",
+              "dealOrWarrantPrc": "15억 9,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2611570354",
+              "dealOrWarrantPrc": "15억 9,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2612120611",
+              "dealOrWarrantPrc": "20억",
+              "area1": 138,
+              "area2": 114,
+              "floorInfo": "중/15"
+            },
+            {
+              "articleNo": "2612170781",
+              "dealOrWarrantPrc": "19억 5,000",
+              "area1": 105,
+              "area2": 84,
+              "floorInfo": "고/15"
+            },
+            {
+              "articleNo": "2612169901",
+              "dealOrWarrantPrc": "19억 5,000",
+              "area1": 105,
+              "area2": 84,
+              "floorInfo": "중/14"
+            },
+            {
+              "articleNo": "2612152250",
+              "dealOrWarrantPrc": "16억",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "저/15"
+            },
+            {
+              "articleNo": "2612139108",
+              "dealOrWarrantPrc": "19억",
+              "area1": 105,
+              "area2": 84,
+              "floorInfo": "중/14"
+            },
+            {
+              "articleNo": "2612170320",
+              "dealOrWarrantPrc": "20억",
+              "area1": 138,
+              "area2": 114,
+              "floorInfo": "중/15"
+            },
+            {
+              "articleNo": "2612219092",
+              "dealOrWarrantPrc": "17억",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "저/15"
+            },
+            {
+              "articleNo": "2612159305",
+              "dealOrWarrantPrc": "16억",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "중/15"
+            },
+            {
+              "articleNo": "2612154738",
+              "dealOrWarrantPrc": "18억",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "고/15"
+            },
+            {
+              "articleNo": "2612281920",
+              "dealOrWarrantPrc": "19억",
+              "area1": 105,
+              "area2": 84,
+              "floorInfo": "중/14"
+            }
+          ]
         }
       ],
       "byArea": [
@@ -7640,6 +8265,106 @@
                   "floorInfo": "저/15"
                 }
               ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 13,
+              "minPrice": 159000,
+              "maxPrice": 180000,
+              "avgPrice": 161615,
+              "listings": [
+                {
+                  "articleNo": "2612101756",
+                  "dealOrWarrantPrc": "15억 9,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "1/15"
+                },
+                {
+                  "articleNo": "2612100985",
+                  "dealOrWarrantPrc": "15억 9,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "1/15"
+                },
+                {
+                  "articleNo": "2611873229",
+                  "dealOrWarrantPrc": "15억 9,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "1/15"
+                },
+                {
+                  "articleNo": "2611895495",
+                  "dealOrWarrantPrc": "15억 9,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "1/15"
+                },
+                {
+                  "articleNo": "2611898474",
+                  "dealOrWarrantPrc": "15억 9,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "1/15"
+                },
+                {
+                  "articleNo": "2611578473",
+                  "dealOrWarrantPrc": "15억 9,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "1/15"
+                },
+                {
+                  "articleNo": "2611589027",
+                  "dealOrWarrantPrc": "15억 9,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "1/15"
+                },
+                {
+                  "articleNo": "2611659394",
+                  "dealOrWarrantPrc": "15억 9,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "1/15"
+                },
+                {
+                  "articleNo": "2611570354",
+                  "dealOrWarrantPrc": "15억 9,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "1/15"
+                },
+                {
+                  "articleNo": "2612152250",
+                  "dealOrWarrantPrc": "16억",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "저/15"
+                },
+                {
+                  "articleNo": "2612219092",
+                  "dealOrWarrantPrc": "17억",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "저/15"
+                },
+                {
+                  "articleNo": "2612159305",
+                  "dealOrWarrantPrc": "16억",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "중/15"
+                },
+                {
+                  "articleNo": "2612154738",
+                  "dealOrWarrantPrc": "18억",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "고/15"
+                }
+              ]
             }
           ]
         },
@@ -8066,6 +8791,43 @@
                   "floorInfo": "중/14"
                 }
               ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 4,
+              "minPrice": 190000,
+              "maxPrice": 195000,
+              "avgPrice": 192500,
+              "listings": [
+                {
+                  "articleNo": "2612170781",
+                  "dealOrWarrantPrc": "19억 5,000",
+                  "area1": 105,
+                  "area2": 84,
+                  "floorInfo": "고/15"
+                },
+                {
+                  "articleNo": "2612169901",
+                  "dealOrWarrantPrc": "19억 5,000",
+                  "area1": 105,
+                  "area2": 84,
+                  "floorInfo": "중/14"
+                },
+                {
+                  "articleNo": "2612139108",
+                  "dealOrWarrantPrc": "19억",
+                  "area1": 105,
+                  "area2": 84,
+                  "floorInfo": "중/14"
+                },
+                {
+                  "articleNo": "2612281920",
+                  "dealOrWarrantPrc": "19억",
+                  "area1": 105,
+                  "area2": 84,
+                  "floorInfo": "중/14"
+                }
+              ]
             }
           ]
         },
@@ -8296,6 +9058,29 @@
                 },
                 {
                   "articleNo": "2611702805",
+                  "dealOrWarrantPrc": "20억",
+                  "area1": 138,
+                  "area2": 114,
+                  "floorInfo": "중/15"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 2,
+              "minPrice": 200000,
+              "maxPrice": 200000,
+              "avgPrice": 200000,
+              "listings": [
+                {
+                  "articleNo": "2612120611",
+                  "dealOrWarrantPrc": "20억",
+                  "area1": 138,
+                  "area2": 114,
+                  "floorInfo": "중/15"
+                },
+                {
+                  "articleNo": "2612170320",
                   "dealOrWarrantPrc": "20억",
                   "area1": 138,
                   "area2": 114,
@@ -9491,6 +10276,120 @@
               "floorInfo": "15/18"
             }
           ]
+        },
+        {
+          "date": "2026-03-06",
+          "totalCount": 15,
+          "minPrice": 152000,
+          "maxPrice": 210000,
+          "avgPrice": 178100,
+          "listings": [
+            {
+              "articleNo": "2611934960",
+              "dealOrWarrantPrc": "21억",
+              "area1": 139,
+              "area2": 114,
+              "floorInfo": "15/18"
+            },
+            {
+              "articleNo": "2611348360",
+              "dealOrWarrantPrc": "17억",
+              "area1": 106,
+              "area2": 84,
+              "floorInfo": "7/18"
+            },
+            {
+              "articleNo": "2612149998",
+              "dealOrWarrantPrc": "17억",
+              "area1": 106,
+              "area2": 84,
+              "floorInfo": "12/18"
+            },
+            {
+              "articleNo": "2612152548",
+              "dealOrWarrantPrc": "17억 5,000",
+              "area1": 106,
+              "area2": 84,
+              "floorInfo": "7/18"
+            },
+            {
+              "articleNo": "2611956068",
+              "dealOrWarrantPrc": "16억 7,000",
+              "area1": 106,
+              "area2": 84,
+              "floorInfo": "2/18"
+            },
+            {
+              "articleNo": "2612325480",
+              "dealOrWarrantPrc": "15억 2,000",
+              "area1": 85,
+              "area2": 59,
+              "floorInfo": "2/18"
+            },
+            {
+              "articleNo": "2612107813",
+              "dealOrWarrantPrc": "16억",
+              "area1": 85,
+              "area2": 59,
+              "floorInfo": "고/18"
+            },
+            {
+              "articleNo": "2612339141",
+              "dealOrWarrantPrc": "19억 7,500",
+              "area1": 139,
+              "area2": 114,
+              "floorInfo": "저/18"
+            },
+            {
+              "articleNo": "2611683123",
+              "dealOrWarrantPrc": "17억",
+              "area1": 106,
+              "area2": 84,
+              "floorInfo": "5/14"
+            },
+            {
+              "articleNo": "2611701908",
+              "dealOrWarrantPrc": "17억",
+              "area1": 106,
+              "area2": 84,
+              "floorInfo": "8/14"
+            },
+            {
+              "articleNo": "2611798021",
+              "dealOrWarrantPrc": "21억",
+              "area1": 139,
+              "area2": 114,
+              "floorInfo": "중/18"
+            },
+            {
+              "articleNo": "2611580611",
+              "dealOrWarrantPrc": "16억",
+              "area1": 85,
+              "area2": 59,
+              "floorInfo": "고/18"
+            },
+            {
+              "articleNo": "2612141217",
+              "dealOrWarrantPrc": "17억 5,000",
+              "area1": 106,
+              "area2": 84,
+              "floorInfo": "5/18"
+            },
+            {
+              "articleNo": "2612170859",
+              "dealOrWarrantPrc": "21억",
+              "area1": 139,
+              "area2": 114,
+              "floorInfo": "15/18"
+            },
+            {
+              "articleNo": "2612167157",
+              "dealOrWarrantPrc": "17억 5,000",
+              "area1": 106,
+              "area2": 84,
+              "floorInfo": "5/18"
+            }
+          ]
         }
       ],
       "byArea": [
@@ -9875,6 +10774,36 @@
                   "area1": 85,
                   "area2": 59,
                   "floorInfo": "2/18"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 3,
+              "minPrice": 152000,
+              "maxPrice": 160000,
+              "avgPrice": 157333,
+              "listings": [
+                {
+                  "articleNo": "2612325480",
+                  "dealOrWarrantPrc": "15억 2,000",
+                  "area1": 85,
+                  "area2": 59,
+                  "floorInfo": "2/18"
+                },
+                {
+                  "articleNo": "2612107813",
+                  "dealOrWarrantPrc": "16억",
+                  "area1": 85,
+                  "area2": 59,
+                  "floorInfo": "고/18"
+                },
+                {
+                  "articleNo": "2611580611",
+                  "dealOrWarrantPrc": "16억",
+                  "area1": 85,
+                  "area2": 59,
+                  "floorInfo": "고/18"
                 }
               ]
             }
@@ -10298,6 +11227,71 @@
                   "area1": 106,
                   "area2": 84,
                   "floorInfo": "7/18"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 8,
+              "minPrice": 167000,
+              "maxPrice": 175000,
+              "avgPrice": 171500,
+              "listings": [
+                {
+                  "articleNo": "2611348360",
+                  "dealOrWarrantPrc": "17억",
+                  "area1": 106,
+                  "area2": 84,
+                  "floorInfo": "7/18"
+                },
+                {
+                  "articleNo": "2612149998",
+                  "dealOrWarrantPrc": "17억",
+                  "area1": 106,
+                  "area2": 84,
+                  "floorInfo": "12/18"
+                },
+                {
+                  "articleNo": "2612152548",
+                  "dealOrWarrantPrc": "17억 5,000",
+                  "area1": 106,
+                  "area2": 84,
+                  "floorInfo": "7/18"
+                },
+                {
+                  "articleNo": "2611956068",
+                  "dealOrWarrantPrc": "16억 7,000",
+                  "area1": 106,
+                  "area2": 84,
+                  "floorInfo": "2/18"
+                },
+                {
+                  "articleNo": "2611683123",
+                  "dealOrWarrantPrc": "17억",
+                  "area1": 106,
+                  "area2": 84,
+                  "floorInfo": "5/14"
+                },
+                {
+                  "articleNo": "2611701908",
+                  "dealOrWarrantPrc": "17억",
+                  "area1": 106,
+                  "area2": 84,
+                  "floorInfo": "8/14"
+                },
+                {
+                  "articleNo": "2612141217",
+                  "dealOrWarrantPrc": "17억 5,000",
+                  "area1": 106,
+                  "area2": 84,
+                  "floorInfo": "5/18"
+                },
+                {
+                  "articleNo": "2612167157",
+                  "dealOrWarrantPrc": "17억 5,000",
+                  "area1": 106,
+                  "area2": 84,
+                  "floorInfo": "5/18"
                 }
               ]
             }
@@ -10868,6 +11862,43 @@
                 {
                   "articleNo": "2611994951",
                   "dealOrWarrantPrc": "20억",
+                  "area1": 139,
+                  "area2": 114,
+                  "floorInfo": "15/18"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 4,
+              "minPrice": 197500,
+              "maxPrice": 210000,
+              "avgPrice": 206875,
+              "listings": [
+                {
+                  "articleNo": "2611934960",
+                  "dealOrWarrantPrc": "21억",
+                  "area1": 139,
+                  "area2": 114,
+                  "floorInfo": "15/18"
+                },
+                {
+                  "articleNo": "2612339141",
+                  "dealOrWarrantPrc": "19억 7,500",
+                  "area1": 139,
+                  "area2": 114,
+                  "floorInfo": "저/18"
+                },
+                {
+                  "articleNo": "2611798021",
+                  "dealOrWarrantPrc": "21억",
+                  "area1": 139,
+                  "area2": 114,
+                  "floorInfo": "중/18"
+                },
+                {
+                  "articleNo": "2612170859",
+                  "dealOrWarrantPrc": "21억",
                   "area1": 139,
                   "area2": 114,
                   "floorInfo": "15/18"
@@ -12148,6 +13179,120 @@
               "floorInfo": "고/20"
             }
           ]
+        },
+        {
+          "date": "2026-03-06",
+          "totalCount": 15,
+          "minPrice": 146000,
+          "maxPrice": 185000,
+          "avgPrice": 169000,
+          "listings": [
+            {
+              "articleNo": "2612172579",
+              "dealOrWarrantPrc": "18억 5,000",
+              "area1": 141,
+              "area2": 114,
+              "floorInfo": "2/17"
+            },
+            {
+              "articleNo": "2611995082",
+              "dealOrWarrantPrc": "16억 5,000",
+              "area1": 107,
+              "area2": 84,
+              "floorInfo": "1/20"
+            },
+            {
+              "articleNo": "2611996937",
+              "dealOrWarrantPrc": "16억 5,000",
+              "area1": 107,
+              "area2": 84,
+              "floorInfo": "1/20"
+            },
+            {
+              "articleNo": "2611999374",
+              "dealOrWarrantPrc": "18억 5,000",
+              "area1": 141,
+              "area2": 114,
+              "floorInfo": "2/17"
+            },
+            {
+              "articleNo": "2612060805",
+              "dealOrWarrantPrc": "14억 6,000",
+              "area1": 80,
+              "area2": 57,
+              "floorInfo": "3/12"
+            },
+            {
+              "articleNo": "2611763339",
+              "dealOrWarrantPrc": "18억 5,000",
+              "area1": 141,
+              "area2": 114,
+              "floorInfo": "2/17"
+            },
+            {
+              "articleNo": "2611227933",
+              "dealOrWarrantPrc": "16억 5,000",
+              "area1": 107,
+              "area2": 84,
+              "floorInfo": "1/20"
+            },
+            {
+              "articleNo": "2611241935",
+              "dealOrWarrantPrc": "16억 5,000",
+              "area1": 107,
+              "area2": 84,
+              "floorInfo": "1/20"
+            },
+            {
+              "articleNo": "2611229348",
+              "dealOrWarrantPrc": "18억 5,000",
+              "area1": 141,
+              "area2": 114,
+              "floorInfo": "2/17"
+            },
+            {
+              "articleNo": "2611242080",
+              "dealOrWarrantPrc": "18억 5,000",
+              "area1": 141,
+              "area2": 114,
+              "floorInfo": "2/17"
+            },
+            {
+              "articleNo": "2612271192",
+              "dealOrWarrantPrc": "18억",
+              "area1": 107,
+              "area2": 84,
+              "floorInfo": "고/20"
+            },
+            {
+              "articleNo": "2612306903",
+              "dealOrWarrantPrc": "14억 8,000",
+              "area1": 80,
+              "area2": 57,
+              "floorInfo": "저/20"
+            },
+            {
+              "articleNo": "2612171166",
+              "dealOrWarrantPrc": "14억 8,000",
+              "area1": 80,
+              "area2": 57,
+              "floorInfo": "저/20"
+            },
+            {
+              "articleNo": "2612249950",
+              "dealOrWarrantPrc": "18억",
+              "area1": 107,
+              "area2": 84,
+              "floorInfo": "고/20"
+            },
+            {
+              "articleNo": "2612212429",
+              "dealOrWarrantPrc": "14억 8,000",
+              "area1": 80,
+              "area2": 57,
+              "floorInfo": "중/20"
+            }
+          ]
         }
       ],
       "byArea": [
@@ -12789,6 +13934,43 @@
                   "floorInfo": "저/20"
                 }
               ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 4,
+              "minPrice": 146000,
+              "maxPrice": 148000,
+              "avgPrice": 147500,
+              "listings": [
+                {
+                  "articleNo": "2612060805",
+                  "dealOrWarrantPrc": "14억 6,000",
+                  "area1": 80,
+                  "area2": 57,
+                  "floorInfo": "3/12"
+                },
+                {
+                  "articleNo": "2612306903",
+                  "dealOrWarrantPrc": "14억 8,000",
+                  "area1": 80,
+                  "area2": 57,
+                  "floorInfo": "저/20"
+                },
+                {
+                  "articleNo": "2612171166",
+                  "dealOrWarrantPrc": "14억 8,000",
+                  "area1": 80,
+                  "area2": 57,
+                  "floorInfo": "저/20"
+                },
+                {
+                  "articleNo": "2612212429",
+                  "dealOrWarrantPrc": "14억 8,000",
+                  "area1": 80,
+                  "area2": 57,
+                  "floorInfo": "중/20"
+                }
+              ]
             }
           ]
         },
@@ -13078,6 +14260,57 @@
                 },
                 {
                   "articleNo": "2611954445",
+                  "dealOrWarrantPrc": "18억",
+                  "area1": 107,
+                  "area2": 84,
+                  "floorInfo": "고/20"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 6,
+              "minPrice": 165000,
+              "maxPrice": 180000,
+              "avgPrice": 170000,
+              "listings": [
+                {
+                  "articleNo": "2611995082",
+                  "dealOrWarrantPrc": "16억 5,000",
+                  "area1": 107,
+                  "area2": 84,
+                  "floorInfo": "1/20"
+                },
+                {
+                  "articleNo": "2611996937",
+                  "dealOrWarrantPrc": "16억 5,000",
+                  "area1": 107,
+                  "area2": 84,
+                  "floorInfo": "1/20"
+                },
+                {
+                  "articleNo": "2611227933",
+                  "dealOrWarrantPrc": "16억 5,000",
+                  "area1": 107,
+                  "area2": 84,
+                  "floorInfo": "1/20"
+                },
+                {
+                  "articleNo": "2611241935",
+                  "dealOrWarrantPrc": "16억 5,000",
+                  "area1": 107,
+                  "area2": 84,
+                  "floorInfo": "1/20"
+                },
+                {
+                  "articleNo": "2612271192",
+                  "dealOrWarrantPrc": "18억",
+                  "area1": 107,
+                  "area2": 84,
+                  "floorInfo": "고/20"
+                },
+                {
+                  "articleNo": "2612249950",
                   "dealOrWarrantPrc": "18억",
                   "area1": 107,
                   "area2": 84,
@@ -13614,6 +14847,50 @@
                   "area1": 141,
                   "area2": 114,
                   "floorInfo": "저/20"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 5,
+              "minPrice": 185000,
+              "maxPrice": 185000,
+              "avgPrice": 185000,
+              "listings": [
+                {
+                  "articleNo": "2612172579",
+                  "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 141,
+                  "area2": 114,
+                  "floorInfo": "2/17"
+                },
+                {
+                  "articleNo": "2611999374",
+                  "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 141,
+                  "area2": 114,
+                  "floorInfo": "2/17"
+                },
+                {
+                  "articleNo": "2611763339",
+                  "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 141,
+                  "area2": 114,
+                  "floorInfo": "2/17"
+                },
+                {
+                  "articleNo": "2611229348",
+                  "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 141,
+                  "area2": 114,
+                  "floorInfo": "2/17"
+                },
+                {
+                  "articleNo": "2611242080",
+                  "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 141,
+                  "area2": 114,
+                  "floorInfo": "2/17"
                 }
               ]
             }
@@ -14481,6 +15758,78 @@
               "floorInfo": "4/15"
             }
           ]
+        },
+        {
+          "date": "2026-03-06",
+          "totalCount": 9,
+          "minPrice": 170000,
+          "maxPrice": 205000,
+          "avgPrice": 195444,
+          "listings": [
+            {
+              "articleNo": "2612163758",
+              "dealOrWarrantPrc": "20억 5,000",
+              "area1": 137,
+              "area2": 118,
+              "floorInfo": "4/15"
+            },
+            {
+              "articleNo": "2612179560",
+              "dealOrWarrantPrc": "18억 8,000",
+              "area1": 111,
+              "area2": 84,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2612223286",
+              "dealOrWarrantPrc": "17억",
+              "area1": 76,
+              "area2": 59,
+              "floorInfo": "2/15"
+            },
+            {
+              "articleNo": "2612226063",
+              "dealOrWarrantPrc": "20억 5,000",
+              "area1": 137,
+              "area2": 118,
+              "floorInfo": "4/15"
+            },
+            {
+              "articleNo": "2611958068",
+              "dealOrWarrantPrc": "18억 8,000",
+              "area1": 111,
+              "area2": 84,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2611911624",
+              "dealOrWarrantPrc": "20억 5,000",
+              "area1": 137,
+              "area2": 118,
+              "floorInfo": "4/15"
+            },
+            {
+              "articleNo": "2612058839",
+              "dealOrWarrantPrc": "20억 5,000",
+              "area1": 137,
+              "area2": 118,
+              "floorInfo": "4/15"
+            },
+            {
+              "articleNo": "2612051911",
+              "dealOrWarrantPrc": "18억 8,000",
+              "area1": 111,
+              "area2": 84,
+              "floorInfo": "1/15"
+            },
+            {
+              "articleNo": "2612053497",
+              "dealOrWarrantPrc": "20억 5,000",
+              "area1": 137,
+              "area2": 118,
+              "floorInfo": "4/15"
+            }
+          ]
         }
       ],
       "byArea": [
@@ -14512,6 +15861,22 @@
                 },
                 {
                   "articleNo": "2611847976",
+                  "dealOrWarrantPrc": "17억",
+                  "area1": 76,
+                  "area2": 59,
+                  "floorInfo": "2/15"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 1,
+              "minPrice": 170000,
+              "maxPrice": 170000,
+              "avgPrice": 170000,
+              "listings": [
+                {
+                  "articleNo": "2612223286",
                   "dealOrWarrantPrc": "17억",
                   "area1": 76,
                   "area2": 59,
@@ -15043,6 +16408,36 @@
                   "floorInfo": "1/15"
                 }
               ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 3,
+              "minPrice": 188000,
+              "maxPrice": 188000,
+              "avgPrice": 188000,
+              "listings": [
+                {
+                  "articleNo": "2612179560",
+                  "dealOrWarrantPrc": "18억 8,000",
+                  "area1": 111,
+                  "area2": 84,
+                  "floorInfo": "1/15"
+                },
+                {
+                  "articleNo": "2611958068",
+                  "dealOrWarrantPrc": "18억 8,000",
+                  "area1": 111,
+                  "area2": 84,
+                  "floorInfo": "1/15"
+                },
+                {
+                  "articleNo": "2612051911",
+                  "dealOrWarrantPrc": "18억 8,000",
+                  "area1": 111,
+                  "area2": 84,
+                  "floorInfo": "1/15"
+                }
+              ]
             }
           ]
         },
@@ -15477,6 +16872,50 @@
                 },
                 {
                   "articleNo": "2611686176",
+                  "dealOrWarrantPrc": "20억 5,000",
+                  "area1": 137,
+                  "area2": 118,
+                  "floorInfo": "4/15"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 5,
+              "minPrice": 205000,
+              "maxPrice": 205000,
+              "avgPrice": 205000,
+              "listings": [
+                {
+                  "articleNo": "2612163758",
+                  "dealOrWarrantPrc": "20억 5,000",
+                  "area1": 137,
+                  "area2": 118,
+                  "floorInfo": "4/15"
+                },
+                {
+                  "articleNo": "2612226063",
+                  "dealOrWarrantPrc": "20억 5,000",
+                  "area1": 137,
+                  "area2": 118,
+                  "floorInfo": "4/15"
+                },
+                {
+                  "articleNo": "2611911624",
+                  "dealOrWarrantPrc": "20억 5,000",
+                  "area1": 137,
+                  "area2": 118,
+                  "floorInfo": "4/15"
+                },
+                {
+                  "articleNo": "2612058839",
+                  "dealOrWarrantPrc": "20억 5,000",
+                  "area1": 137,
+                  "area2": 118,
+                  "floorInfo": "4/15"
+                },
+                {
+                  "articleNo": "2612053497",
                   "dealOrWarrantPrc": "20억 5,000",
                   "area1": 137,
                   "area2": 118,
@@ -16907,6 +18346,141 @@
               "floorInfo": "8/15"
             }
           ]
+        },
+        {
+          "date": "2026-03-06",
+          "totalCount": 18,
+          "minPrice": 165000,
+          "maxPrice": 195000,
+          "avgPrice": 179556,
+          "listings": [
+            {
+              "articleNo": "2612247469",
+              "dealOrWarrantPrc": "18억",
+              "area1": 108,
+              "area2": 84,
+              "floorInfo": "12/15"
+            },
+            {
+              "articleNo": "2612299933",
+              "dealOrWarrantPrc": "18억",
+              "area1": 108,
+              "area2": 84,
+              "floorInfo": "12/15"
+            },
+            {
+              "articleNo": "2612208001",
+              "dealOrWarrantPrc": "17억 5,000",
+              "area1": 135,
+              "area2": 118,
+              "floorInfo": "13/15"
+            },
+            {
+              "articleNo": "2612220193",
+              "dealOrWarrantPrc": "17억 5,000",
+              "area1": 135,
+              "area2": 118,
+              "floorInfo": "13/15"
+            },
+            {
+              "articleNo": "2612146282",
+              "dealOrWarrantPrc": "18억",
+              "area1": 108,
+              "area2": 84,
+              "floorInfo": "12/15"
+            },
+            {
+              "articleNo": "2612297395",
+              "dealOrWarrantPrc": "17억 5,000",
+              "area1": 135,
+              "area2": 118,
+              "floorInfo": "13/15"
+            },
+            {
+              "articleNo": "2611922911",
+              "dealOrWarrantPrc": "18억 5,000",
+              "area1": 128,
+              "area2": 108,
+              "floorInfo": "4/15"
+            },
+            {
+              "articleNo": "2612054581",
+              "dealOrWarrantPrc": "18억",
+              "area1": 108,
+              "area2": 84,
+              "floorInfo": "12/15"
+            },
+            {
+              "articleNo": "2611667740",
+              "dealOrWarrantPrc": "18억 5,000",
+              "area1": 128,
+              "area2": 108,
+              "floorInfo": "4/15"
+            },
+            {
+              "articleNo": "2611515695",
+              "dealOrWarrantPrc": "18억 5,000",
+              "area1": 135,
+              "area2": 118,
+              "floorInfo": "13/15"
+            },
+            {
+              "articleNo": "2611793075",
+              "dealOrWarrantPrc": "16억 5,000",
+              "area1": 76,
+              "area2": 59,
+              "floorInfo": "8/15"
+            },
+            {
+              "articleNo": "2611536354",
+              "dealOrWarrantPrc": "18억",
+              "area1": 108,
+              "area2": 84,
+              "floorInfo": "7/15"
+            },
+            {
+              "articleNo": "2612239552",
+              "dealOrWarrantPrc": "19억 5,000",
+              "area1": 124,
+              "area2": 108,
+              "floorInfo": "고/15"
+            },
+            {
+              "articleNo": "2612191189",
+              "dealOrWarrantPrc": "18억",
+              "area1": 108,
+              "area2": 84,
+              "floorInfo": "고/15"
+            },
+            {
+              "articleNo": "2610816008",
+              "dealOrWarrantPrc": "18억",
+              "area1": 108,
+              "area2": 84,
+              "floorInfo": "12/15"
+            },
+            {
+              "articleNo": "2611923070",
+              "dealOrWarrantPrc": "18억 2,000",
+              "area1": 136,
+              "area2": 118,
+              "floorInfo": "저/15"
+            },
+            {
+              "articleNo": "2610608097",
+              "dealOrWarrantPrc": "16억 5,000",
+              "area1": 76,
+              "area2": 59,
+              "floorInfo": "8/15"
+            },
+            {
+              "articleNo": "2611747276",
+              "dealOrWarrantPrc": "18억 5,000",
+              "area1": 128,
+              "area2": 108,
+              "floorInfo": "중/15"
+            }
+          ]
         }
       ],
       "byArea": [
@@ -17591,6 +19165,29 @@
                   "floorInfo": "8/15"
                 }
               ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 2,
+              "minPrice": 165000,
+              "maxPrice": 165000,
+              "avgPrice": 165000,
+              "listings": [
+                {
+                  "articleNo": "2611793075",
+                  "dealOrWarrantPrc": "16억 5,000",
+                  "area1": 76,
+                  "area2": 59,
+                  "floorInfo": "8/15"
+                },
+                {
+                  "articleNo": "2610608097",
+                  "dealOrWarrantPrc": "16억 5,000",
+                  "area1": 76,
+                  "area2": 59,
+                  "floorInfo": "8/15"
+                }
+              ]
             }
           ]
         },
@@ -17949,6 +19546,64 @@
                   "area1": 108,
                   "area2": 84,
                   "floorInfo": "12/15"
+                },
+                {
+                  "articleNo": "2610816008",
+                  "dealOrWarrantPrc": "18억",
+                  "area1": 108,
+                  "area2": 84,
+                  "floorInfo": "12/15"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 7,
+              "minPrice": 180000,
+              "maxPrice": 180000,
+              "avgPrice": 180000,
+              "listings": [
+                {
+                  "articleNo": "2612247469",
+                  "dealOrWarrantPrc": "18억",
+                  "area1": 108,
+                  "area2": 84,
+                  "floorInfo": "12/15"
+                },
+                {
+                  "articleNo": "2612299933",
+                  "dealOrWarrantPrc": "18억",
+                  "area1": 108,
+                  "area2": 84,
+                  "floorInfo": "12/15"
+                },
+                {
+                  "articleNo": "2612146282",
+                  "dealOrWarrantPrc": "18억",
+                  "area1": 108,
+                  "area2": 84,
+                  "floorInfo": "12/15"
+                },
+                {
+                  "articleNo": "2612054581",
+                  "dealOrWarrantPrc": "18억",
+                  "area1": 108,
+                  "area2": 84,
+                  "floorInfo": "12/15"
+                },
+                {
+                  "articleNo": "2611536354",
+                  "dealOrWarrantPrc": "18억",
+                  "area1": 108,
+                  "area2": 84,
+                  "floorInfo": "7/15"
+                },
+                {
+                  "articleNo": "2612191189",
+                  "dealOrWarrantPrc": "18억",
+                  "area1": 108,
+                  "area2": 84,
+                  "floorInfo": "고/15"
                 },
                 {
                   "articleNo": "2610816008",
@@ -18408,6 +20063,43 @@
                   "floorInfo": "고/15"
                 }
               ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 4,
+              "minPrice": 185000,
+              "maxPrice": 195000,
+              "avgPrice": 187500,
+              "listings": [
+                {
+                  "articleNo": "2611922911",
+                  "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 128,
+                  "area2": 108,
+                  "floorInfo": "4/15"
+                },
+                {
+                  "articleNo": "2611667740",
+                  "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 128,
+                  "area2": 108,
+                  "floorInfo": "4/15"
+                },
+                {
+                  "articleNo": "2612239552",
+                  "dealOrWarrantPrc": "19억 5,000",
+                  "area1": 124,
+                  "area2": 108,
+                  "floorInfo": "고/15"
+                },
+                {
+                  "articleNo": "2611747276",
+                  "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 128,
+                  "area2": 108,
+                  "floorInfo": "중/15"
+                }
+              ]
             }
           ]
         },
@@ -18672,6 +20364,50 @@
                 {
                   "articleNo": "2611687514",
                   "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 135,
+                  "area2": 118,
+                  "floorInfo": "13/15"
+                },
+                {
+                  "articleNo": "2611515695",
+                  "dealOrWarrantPrc": "18억 5,000",
+                  "area1": 135,
+                  "area2": 118,
+                  "floorInfo": "13/15"
+                },
+                {
+                  "articleNo": "2611923070",
+                  "dealOrWarrantPrc": "18억 2,000",
+                  "area1": 136,
+                  "area2": 118,
+                  "floorInfo": "저/15"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 5,
+              "minPrice": 175000,
+              "maxPrice": 185000,
+              "avgPrice": 178400,
+              "listings": [
+                {
+                  "articleNo": "2612208001",
+                  "dealOrWarrantPrc": "17억 5,000",
+                  "area1": 135,
+                  "area2": 118,
+                  "floorInfo": "13/15"
+                },
+                {
+                  "articleNo": "2612220193",
+                  "dealOrWarrantPrc": "17억 5,000",
+                  "area1": 135,
+                  "area2": 118,
+                  "floorInfo": "13/15"
+                },
+                {
+                  "articleNo": "2612297395",
+                  "dealOrWarrantPrc": "17억 5,000",
                   "area1": 135,
                   "area2": 118,
                   "floorInfo": "13/15"
@@ -19744,6 +21480,141 @@
               "floorInfo": "저/13"
             }
           ]
+        },
+        {
+          "date": "2026-03-06",
+          "totalCount": 18,
+          "minPrice": 85000,
+          "maxPrice": 120000,
+          "avgPrice": 98889,
+          "listings": [
+            {
+              "articleNo": "2611905226",
+              "dealOrWarrantPrc": "9억 4,000",
+              "area1": 112,
+              "area2": 84,
+              "floorInfo": "5/13"
+            },
+            {
+              "articleNo": "2612131575",
+              "dealOrWarrantPrc": "9억 2,000",
+              "area1": 112,
+              "area2": 84,
+              "floorInfo": "고/15"
+            },
+            {
+              "articleNo": "2612223018",
+              "dealOrWarrantPrc": "10억 5,000",
+              "area1": 125,
+              "area2": 105,
+              "floorInfo": "저/13"
+            },
+            {
+              "articleNo": "2612150768",
+              "dealOrWarrantPrc": "11억",
+              "area1": 137,
+              "area2": 116,
+              "floorInfo": "고/13"
+            },
+            {
+              "articleNo": "2611903123",
+              "dealOrWarrantPrc": "9억 2,000",
+              "area1": 112,
+              "area2": 84,
+              "floorInfo": "고/15"
+            },
+            {
+              "articleNo": "2611934744",
+              "dealOrWarrantPrc": "10억 5,000",
+              "area1": 125,
+              "area2": 105,
+              "floorInfo": "저/13"
+            },
+            {
+              "articleNo": "2611957055",
+              "dealOrWarrantPrc": "9억 2,000",
+              "area1": 112,
+              "area2": 84,
+              "floorInfo": "고/15"
+            },
+            {
+              "articleNo": "2611894107",
+              "dealOrWarrantPrc": "12억",
+              "area1": 125,
+              "area2": 105,
+              "floorInfo": "고/13"
+            },
+            {
+              "articleNo": "2611612284",
+              "dealOrWarrantPrc": "8억 5,000",
+              "area1": 87,
+              "area2": 65,
+              "floorInfo": "저/13"
+            },
+            {
+              "articleNo": "2611636585",
+              "dealOrWarrantPrc": "9억 8,000",
+              "area1": 112,
+              "area2": 84,
+              "floorInfo": "고/13"
+            },
+            {
+              "articleNo": "2611471946",
+              "dealOrWarrantPrc": "8억 5,000",
+              "area1": 87,
+              "area2": 65,
+              "floorInfo": "저/13"
+            },
+            {
+              "articleNo": "2611615579",
+              "dealOrWarrantPrc": "9억 3,000",
+              "area1": 112,
+              "area2": 84,
+              "floorInfo": "중/13"
+            },
+            {
+              "articleNo": "2611636852",
+              "dealOrWarrantPrc": "8억 5,000",
+              "area1": 87,
+              "area2": 65,
+              "floorInfo": "저/13"
+            },
+            {
+              "articleNo": "2611343033",
+              "dealOrWarrantPrc": "8억 5,000",
+              "area1": 87,
+              "area2": 65,
+              "floorInfo": "저/13"
+            },
+            {
+              "articleNo": "2610985385",
+              "dealOrWarrantPrc": "12억",
+              "area1": 125,
+              "area2": 105,
+              "floorInfo": "고/13"
+            },
+            {
+              "articleNo": "2610628199",
+              "dealOrWarrantPrc": "12억",
+              "area1": 125,
+              "area2": 105,
+              "floorInfo": "중/13"
+            },
+            {
+              "articleNo": "2610584291",
+              "dealOrWarrantPrc": "9억 4,000",
+              "area1": 112,
+              "area2": 84,
+              "floorInfo": "5/13"
+            },
+            {
+              "articleNo": "2609342322",
+              "dealOrWarrantPrc": "10억 5,000",
+              "area1": 125,
+              "area2": 105,
+              "floorInfo": "저/13"
+            }
+          ]
         }
       ],
       "byArea": [
@@ -19867,6 +21738,43 @@
                 },
                 {
                   "articleNo": "2611612284",
+                  "dealOrWarrantPrc": "8억 5,000",
+                  "area1": 87,
+                  "area2": 65,
+                  "floorInfo": "저/13"
+                },
+                {
+                  "articleNo": "2611343033",
+                  "dealOrWarrantPrc": "8억 5,000",
+                  "area1": 87,
+                  "area2": 65,
+                  "floorInfo": "저/13"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 4,
+              "minPrice": 85000,
+              "maxPrice": 85000,
+              "avgPrice": 85000,
+              "listings": [
+                {
+                  "articleNo": "2611612284",
+                  "dealOrWarrantPrc": "8억 5,000",
+                  "area1": 87,
+                  "area2": 65,
+                  "floorInfo": "저/13"
+                },
+                {
+                  "articleNo": "2611471946",
+                  "dealOrWarrantPrc": "8억 5,000",
+                  "area1": 87,
+                  "area2": 65,
+                  "floorInfo": "저/13"
+                },
+                {
+                  "articleNo": "2611636852",
                   "dealOrWarrantPrc": "8억 5,000",
                   "area1": 87,
                   "area2": 65,
@@ -20110,6 +22018,64 @@
                 },
                 {
                   "articleNo": "2611641637",
+                  "dealOrWarrantPrc": "9억 2,000",
+                  "area1": 112,
+                  "area2": 84,
+                  "floorInfo": "고/15"
+                },
+                {
+                  "articleNo": "2611636585",
+                  "dealOrWarrantPrc": "9억 8,000",
+                  "area1": 112,
+                  "area2": 84,
+                  "floorInfo": "고/13"
+                },
+                {
+                  "articleNo": "2611615579",
+                  "dealOrWarrantPrc": "9억 3,000",
+                  "area1": 112,
+                  "area2": 84,
+                  "floorInfo": "중/13"
+                },
+                {
+                  "articleNo": "2610584291",
+                  "dealOrWarrantPrc": "9억 4,000",
+                  "area1": 112,
+                  "area2": 84,
+                  "floorInfo": "5/13"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 7,
+              "minPrice": 92000,
+              "maxPrice": 98000,
+              "avgPrice": 93571,
+              "listings": [
+                {
+                  "articleNo": "2611905226",
+                  "dealOrWarrantPrc": "9억 4,000",
+                  "area1": 112,
+                  "area2": 84,
+                  "floorInfo": "5/13"
+                },
+                {
+                  "articleNo": "2612131575",
+                  "dealOrWarrantPrc": "9억 2,000",
+                  "area1": 112,
+                  "area2": 84,
+                  "floorInfo": "고/15"
+                },
+                {
+                  "articleNo": "2611903123",
+                  "dealOrWarrantPrc": "9억 2,000",
+                  "area1": 112,
+                  "area2": 84,
+                  "floorInfo": "고/15"
+                },
+                {
+                  "articleNo": "2611957055",
                   "dealOrWarrantPrc": "9억 2,000",
                   "area1": 112,
                   "area2": 84,
@@ -20869,6 +22835,57 @@
                   "floorInfo": "저/13"
                 }
               ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 6,
+              "minPrice": 105000,
+              "maxPrice": 120000,
+              "avgPrice": 112500,
+              "listings": [
+                {
+                  "articleNo": "2612223018",
+                  "dealOrWarrantPrc": "10억 5,000",
+                  "area1": 125,
+                  "area2": 105,
+                  "floorInfo": "저/13"
+                },
+                {
+                  "articleNo": "2611934744",
+                  "dealOrWarrantPrc": "10억 5,000",
+                  "area1": 125,
+                  "area2": 105,
+                  "floorInfo": "저/13"
+                },
+                {
+                  "articleNo": "2611894107",
+                  "dealOrWarrantPrc": "12억",
+                  "area1": 125,
+                  "area2": 105,
+                  "floorInfo": "고/13"
+                },
+                {
+                  "articleNo": "2610985385",
+                  "dealOrWarrantPrc": "12억",
+                  "area1": 125,
+                  "area2": 105,
+                  "floorInfo": "고/13"
+                },
+                {
+                  "articleNo": "2610628199",
+                  "dealOrWarrantPrc": "12억",
+                  "area1": 125,
+                  "area2": 105,
+                  "floorInfo": "중/13"
+                },
+                {
+                  "articleNo": "2609342322",
+                  "dealOrWarrantPrc": "10억 5,000",
+                  "area1": 125,
+                  "area2": 105,
+                  "floorInfo": "저/13"
+                }
+              ]
             }
           ]
         },
@@ -21036,6 +23053,22 @@
               "listings": [
                 {
                   "articleNo": "2610123878",
+                  "dealOrWarrantPrc": "11억",
+                  "area1": 137,
+                  "area2": 116,
+                  "floorInfo": "고/13"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 1,
+              "minPrice": 110000,
+              "maxPrice": 110000,
+              "avgPrice": 110000,
+              "listings": [
+                {
+                  "articleNo": "2612150768",
                   "dealOrWarrantPrc": "11억",
                   "area1": 137,
                   "area2": 116,
@@ -21908,6 +23941,99 @@
               "floorInfo": "2/17"
             }
           ]
+        },
+        {
+          "date": "2026-03-06",
+          "totalCount": 12,
+          "minPrice": 100000,
+          "maxPrice": 146000,
+          "avgPrice": 126333,
+          "listings": [
+            {
+              "articleNo": "2612112317",
+              "dealOrWarrantPrc": "14억 5,000",
+              "area1": 144,
+              "area2": 114,
+              "floorInfo": "17/17"
+            },
+            {
+              "articleNo": "2612111932",
+              "dealOrWarrantPrc": "13억 5,000",
+              "area1": 144,
+              "area2": 114,
+              "floorInfo": "13/17"
+            },
+            {
+              "articleNo": "2612112874",
+              "dealOrWarrantPrc": "10억 7,000",
+              "area1": 85,
+              "area2": 59,
+              "floorInfo": "10/17"
+            },
+            {
+              "articleNo": "2611945763",
+              "dealOrWarrantPrc": "13억 6,000",
+              "area1": 144,
+              "area2": 114,
+              "floorInfo": "14/17"
+            },
+            {
+              "articleNo": "2611956243",
+              "dealOrWarrantPrc": "12억 7,000",
+              "area1": 144,
+              "area2": 114,
+              "floorInfo": "5/17"
+            },
+            {
+              "articleNo": "2611957491",
+              "dealOrWarrantPrc": "10억",
+              "area1": 85,
+              "area2": 59,
+              "floorInfo": "1/17"
+            },
+            {
+              "articleNo": "2611977058",
+              "dealOrWarrantPrc": "10억 7,000",
+              "area1": 85,
+              "area2": 59,
+              "floorInfo": "10/17"
+            },
+            {
+              "articleNo": "2611978037",
+              "dealOrWarrantPrc": "13억 5,000",
+              "area1": 144,
+              "area2": 114,
+              "floorInfo": "8/17"
+            },
+            {
+              "articleNo": "2611945651",
+              "dealOrWarrantPrc": "10억 7,000",
+              "area1": 85,
+              "area2": 59,
+              "floorInfo": "10/17"
+            },
+            {
+              "articleNo": "2612086697",
+              "dealOrWarrantPrc": "13억 6,000",
+              "area1": 144,
+              "area2": 114,
+              "floorInfo": "14/17"
+            },
+            {
+              "articleNo": "2611977993",
+              "dealOrWarrantPrc": "13억 5,000",
+              "area1": 144,
+              "area2": 114,
+              "floorInfo": "13/17"
+            },
+            {
+              "articleNo": "2611977753",
+              "dealOrWarrantPrc": "14억 6,000",
+              "area1": 144,
+              "area2": 114,
+              "floorInfo": "9/17"
+            }
+          ]
         }
       ],
       "byArea": [
@@ -22184,6 +24310,43 @@
               "maxPrice": 107000,
               "avgPrice": 104667,
               "listings": [
+                {
+                  "articleNo": "2611957491",
+                  "dealOrWarrantPrc": "10억",
+                  "area1": 85,
+                  "area2": 59,
+                  "floorInfo": "1/17"
+                },
+                {
+                  "articleNo": "2611977058",
+                  "dealOrWarrantPrc": "10억 7,000",
+                  "area1": 85,
+                  "area2": 59,
+                  "floorInfo": "10/17"
+                },
+                {
+                  "articleNo": "2611945651",
+                  "dealOrWarrantPrc": "10억 7,000",
+                  "area1": 85,
+                  "area2": 59,
+                  "floorInfo": "10/17"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 4,
+              "minPrice": 100000,
+              "maxPrice": 107000,
+              "avgPrice": 105250,
+              "listings": [
+                {
+                  "articleNo": "2612112874",
+                  "dealOrWarrantPrc": "10억 7,000",
+                  "area1": 85,
+                  "area2": 59,
+                  "floorInfo": "10/17"
+                },
                 {
                   "articleNo": "2611957491",
                   "dealOrWarrantPrc": "10억",
@@ -22893,6 +25056,71 @@
                   "area1": 144,
                   "area2": 114,
                   "floorInfo": "2/17"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 8,
+              "minPrice": 127000,
+              "maxPrice": 146000,
+              "avgPrice": 136875,
+              "listings": [
+                {
+                  "articleNo": "2612112317",
+                  "dealOrWarrantPrc": "14억 5,000",
+                  "area1": 144,
+                  "area2": 114,
+                  "floorInfo": "17/17"
+                },
+                {
+                  "articleNo": "2612111932",
+                  "dealOrWarrantPrc": "13억 5,000",
+                  "area1": 144,
+                  "area2": 114,
+                  "floorInfo": "13/17"
+                },
+                {
+                  "articleNo": "2611945763",
+                  "dealOrWarrantPrc": "13억 6,000",
+                  "area1": 144,
+                  "area2": 114,
+                  "floorInfo": "14/17"
+                },
+                {
+                  "articleNo": "2611956243",
+                  "dealOrWarrantPrc": "12억 7,000",
+                  "area1": 144,
+                  "area2": 114,
+                  "floorInfo": "5/17"
+                },
+                {
+                  "articleNo": "2611978037",
+                  "dealOrWarrantPrc": "13억 5,000",
+                  "area1": 144,
+                  "area2": 114,
+                  "floorInfo": "8/17"
+                },
+                {
+                  "articleNo": "2612086697",
+                  "dealOrWarrantPrc": "13억 6,000",
+                  "area1": 144,
+                  "area2": 114,
+                  "floorInfo": "14/17"
+                },
+                {
+                  "articleNo": "2611977993",
+                  "dealOrWarrantPrc": "13억 5,000",
+                  "area1": 144,
+                  "area2": 114,
+                  "floorInfo": "13/17"
+                },
+                {
+                  "articleNo": "2611977753",
+                  "dealOrWarrantPrc": "14억 6,000",
+                  "area1": 144,
+                  "area2": 114,
+                  "floorInfo": "9/17"
                 }
               ]
             }
@@ -23824,6 +26052,141 @@
               "floorInfo": "저/24"
             }
           ]
+        },
+        {
+          "date": "2026-03-06",
+          "totalCount": 18,
+          "minPrice": 115000,
+          "maxPrice": 160000,
+          "avgPrice": 137222,
+          "listings": [
+            {
+              "articleNo": "2612139614",
+              "dealOrWarrantPrc": "11억 5,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "3/19"
+            },
+            {
+              "articleNo": "2612086744",
+              "dealOrWarrantPrc": "13억",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "8/24"
+            },
+            {
+              "articleNo": "2611945641",
+              "dealOrWarrantPrc": "11억 5,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "3/19"
+            },
+            {
+              "articleNo": "2611665380",
+              "dealOrWarrantPrc": "15억",
+              "area1": 111,
+              "area2": 84,
+              "floorInfo": "10/24"
+            },
+            {
+              "articleNo": "2611879180",
+              "dealOrWarrantPrc": "13억",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "8/24"
+            },
+            {
+              "articleNo": "2611729660",
+              "dealOrWarrantPrc": "13억 5,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "5/24"
+            },
+            {
+              "articleNo": "2611430621",
+              "dealOrWarrantPrc": "13억",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "8/24"
+            },
+            {
+              "articleNo": "2611665497",
+              "dealOrWarrantPrc": "13억",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "15/24"
+            },
+            {
+              "articleNo": "2611329339",
+              "dealOrWarrantPrc": "13억 5,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "5/24"
+            },
+            {
+              "articleNo": "2611303722",
+              "dealOrWarrantPrc": "13억 5,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "5/24"
+            },
+            {
+              "articleNo": "2612321533",
+              "dealOrWarrantPrc": "13억 8,000",
+              "area1": 111,
+              "area2": 84,
+              "floorInfo": "고/19"
+            },
+            {
+              "articleNo": "2611860245",
+              "dealOrWarrantPrc": "15억",
+              "area1": 111,
+              "area2": 84,
+              "floorInfo": "중/19"
+            },
+            {
+              "articleNo": "2610637539",
+              "dealOrWarrantPrc": "15억 5,000",
+              "area1": 111,
+              "area2": 84,
+              "floorInfo": "12/24"
+            },
+            {
+              "articleNo": "2610638026",
+              "dealOrWarrantPrc": "13억 5,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "5/24"
+            },
+            {
+              "articleNo": "2610663694",
+              "dealOrWarrantPrc": "15억",
+              "area1": 111,
+              "area2": 84,
+              "floorInfo": "21/24"
+            },
+            {
+              "articleNo": "2610637771",
+              "dealOrWarrantPrc": "15억",
+              "area1": 111,
+              "area2": 84,
+              "floorInfo": "중/24"
+            },
+            {
+              "articleNo": "2610510221",
+              "dealOrWarrantPrc": "16억",
+              "area1": 111,
+              "area2": 84,
+              "floorInfo": "중/24"
+            },
+            {
+              "articleNo": "2610468463",
+              "dealOrWarrantPrc": "12억 7,000",
+              "area1": 78,
+              "area2": 59,
+              "floorInfo": "저/24"
+            }
+          ]
         }
       ],
       "byArea": [
@@ -24374,6 +26737,92 @@
                   "floorInfo": "저/24"
                 }
               ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 11,
+              "minPrice": 115000,
+              "maxPrice": 135000,
+              "avgPrice": 128818,
+              "listings": [
+                {
+                  "articleNo": "2612139614",
+                  "dealOrWarrantPrc": "11억 5,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "3/19"
+                },
+                {
+                  "articleNo": "2612086744",
+                  "dealOrWarrantPrc": "13억",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "8/24"
+                },
+                {
+                  "articleNo": "2611945641",
+                  "dealOrWarrantPrc": "11억 5,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "3/19"
+                },
+                {
+                  "articleNo": "2611879180",
+                  "dealOrWarrantPrc": "13억",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "8/24"
+                },
+                {
+                  "articleNo": "2611729660",
+                  "dealOrWarrantPrc": "13억 5,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "5/24"
+                },
+                {
+                  "articleNo": "2611430621",
+                  "dealOrWarrantPrc": "13억",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "8/24"
+                },
+                {
+                  "articleNo": "2611665497",
+                  "dealOrWarrantPrc": "13억",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "15/24"
+                },
+                {
+                  "articleNo": "2611329339",
+                  "dealOrWarrantPrc": "13억 5,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "5/24"
+                },
+                {
+                  "articleNo": "2611303722",
+                  "dealOrWarrantPrc": "13억 5,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "5/24"
+                },
+                {
+                  "articleNo": "2610638026",
+                  "dealOrWarrantPrc": "13억 5,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "5/24"
+                },
+                {
+                  "articleNo": "2610468463",
+                  "dealOrWarrantPrc": "12억 7,000",
+                  "area1": 78,
+                  "area2": 59,
+                  "floorInfo": "저/24"
+                }
+              ]
             }
           ]
         },
@@ -24824,6 +27273,64 @@
                   "area1": 111,
                   "area2": 84,
                   "floorInfo": "고/19"
+                },
+                {
+                  "articleNo": "2610637771",
+                  "dealOrWarrantPrc": "15억",
+                  "area1": 111,
+                  "area2": 84,
+                  "floorInfo": "중/24"
+                },
+                {
+                  "articleNo": "2610510221",
+                  "dealOrWarrantPrc": "16억",
+                  "area1": 111,
+                  "area2": 84,
+                  "floorInfo": "중/24"
+                }
+              ]
+            },
+            {
+              "date": "2026-03-06",
+              "totalCount": 7,
+              "minPrice": 138000,
+              "maxPrice": 160000,
+              "avgPrice": 150429,
+              "listings": [
+                {
+                  "articleNo": "2611665380",
+                  "dealOrWarrantPrc": "15억",
+                  "area1": 111,
+                  "area2": 84,
+                  "floorInfo": "10/24"
+                },
+                {
+                  "articleNo": "2612321533",
+                  "dealOrWarrantPrc": "13억 8,000",
+                  "area1": 111,
+                  "area2": 84,
+                  "floorInfo": "고/19"
+                },
+                {
+                  "articleNo": "2611860245",
+                  "dealOrWarrantPrc": "15억",
+                  "area1": 111,
+                  "area2": 84,
+                  "floorInfo": "중/19"
+                },
+                {
+                  "articleNo": "2610637539",
+                  "dealOrWarrantPrc": "15억 5,000",
+                  "area1": 111,
+                  "area2": 84,
+                  "floorInfo": "12/24"
+                },
+                {
+                  "articleNo": "2610663694",
+                  "dealOrWarrantPrc": "15억",
+                  "area1": 111,
+                  "area2": 84,
+                  "floorInfo": "21/24"
                 },
                 {
                   "articleNo": "2610637771",
