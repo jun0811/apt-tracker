@@ -1,0 +1,306 @@
+/bin/bash: /Users/sojungkim/Desktop/project/apt-tracker/scripts/collect-and-push.sh: Operation not permitted
+[Mon Feb 23 20:16:53 KST 2026] Starting collect...
+
+> apt-tracker@1.0.0 collect
+> tsx scripts/collect.ts
+
+Backup saved: listings-2026-02-23.json
+Fetching 안양시 목련3단지 (3022)...
+  → 16 listings, avg 79375만원 (3 area groups)
+Fetching 강서구 등촌3단지 주공 (12)...
+  → 17 listings, avg 111618만원 (2 area groups)
+Fetching 금호삼성래미안 (3417)...
+  → 19 listings, avg 176316만원 (3 area groups)
+Fetching 약수동 남산타운 (3833)...
+  → 20 listings, avg 182950만원 (3 area groups)
+Fetching 약수 하이츠 (1238)...
+  → 16 listings, avg 166813만원 (3 area groups)
+Fetching 사당우성2단지 (380)...
+  → 9 listings, avg 195556만원 (2 area groups)
+Fetching 사당우성3단지 (381)...
+  → 19 listings, avg 165316만원 (4 area groups)
+Fetching DMC한양 (426)...
+  → 12 listings, avg 113167만원 (3 area groups)
+Fetching 염창 동아1차 (869)...
+  → 12 listings, avg 123333만원 (2 area groups)
+Fetching 염창 동아3차 (870)...
+  → 13 listings, avg 135000만원 (2 area groups)
+Done. Updated /Users/sojungkim/Desktop/project/apt-tracker/data/listings.json
+[main cb72b15] chore: update listings data 2026-02-23
+ 1 file changed, 663 insertions(+), 215 deletions(-)
+To github.com:jun0811/apt-tracker.git
+   e5cce24..cb72b15  main -> main
+[Mon Feb 23 20:18:04 KST 2026] Pushed.
+[Tue Feb 24 12:11:02 KST 2026] Starting collect...
+
+> apt-tracker@1.0.0 collect
+> tsx scripts/collect.ts
+
+Backup saved: listings-2026-02-24.json
+Fetching 안양시 목련3단지 (3022)...
+node:internal/process/promises:394
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+page.waitForResponse: Timeout 20000ms exceeded while waiting for event "response"
+    at fetchListings (/Users/sojungkim/Desktop/project/apt-tracker/src/lib/naver.ts:38:29)
+    at async main (/Users/sojungkim/Desktop/project/apt-tracker/scripts/collect.ts:61:20) {
+  name: 'TimeoutError'
+}
+
+Node.js v22.12.0
+[Tue Feb 24 12:11:26 KST 2026] No changes.
+[Wed Feb 25 12:09:18 KST 2026] Starting collect...
+
+> apt-tracker@1.0.0 collect
+> tsx scripts/collect.ts
+
+Backup saved: listings-2026-02-25.json
+Fetching 안양시 목련3단지 (3022)...
+  → 16 listings, avg 73688만원 (3 area groups)
+Fetching 강서구 등촌3단지 주공 (12)...
+  → 18 listings, avg 105806만원 (2 area groups)
+Fetching 금호삼성래미안 (3417)...
+  → 19 listings, avg 175000만원 (3 area groups)
+Fetching 약수동 남산타운 (3833)...
+  → 17 listings, avg 178059만원 (3 area groups)
+Fetching 약수 하이츠 (1238)...
+  → 15 listings, avg 161733만원 (3 area groups)
+Fetching 사당우성2단지 (380)...
+  → 10 listings, avg 191400만원 (3 area groups)
+Fetching 사당우성3단지 (381)...
+  → 19 listings, avg 161421만원 (5 area groups)
+Fetching DMC한양 (426)...
+  → 11 listings, avg 112818만원 (3 area groups)
+Fetching 염창 동아1차 (869)...
+  → 12 listings, avg 126083만원 (2 area groups)
+Fetching 염창 동아3차 (870)...
+  → 11 listings, avg 139545만원 (2 area groups)
+Done. Updated /Users/sojungkim/Desktop/project/apt-tracker/data/listings.json
+[main 112d3ea] chore: update listings data 2026-02-25
+ 1 file changed, 2514 insertions(+), 91 deletions(-)
+To github.com:jun0811/apt-tracker.git
+ ! [rejected]        main -> main (fetch first)
+error: 레퍼런스를 'github.com:jun0811/apt-tracker.git'에 푸시하는데 실패했습니다
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[Wed Feb 25 12:10:30 KST 2026] Pushed.
+[Thu Feb 26 12:00:01 KST 2026] Starting collect...
+
+> apt-tracker@1.0.0 collect
+> tsx scripts/collect.ts
+
+Backup saved: listings-2026-02-26.json
+Fetching 안양시 목련3단지 (3022)...
+[naver] Failed to crawl 3022 (attempt 1/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/3022?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 3022 (attempt 2/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/3022?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 3022 (attempt 3/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/3022?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  → 0 listings, avg 0만원 (0 area groups)
+Fetching 강서구 등촌3단지 주공 (12)...
+[naver] Failed to crawl 12 (attempt 1/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/12?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 12 (attempt 2/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/12?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 12 (attempt 3/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/12?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  → 0 listings, avg 0만원 (0 area groups)
+Fetching 금호삼성래미안 (3417)...
+[naver] Failed to crawl 3417 (attempt 1/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/3417?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 3417 (attempt 2/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/3417?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 3417 (attempt 3/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/3417?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  → 0 listings, avg 0만원 (0 area groups)
+Fetching 약수동 남산타운 (3833)...
+[naver] Failed to crawl 3833 (attempt 1/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/3833?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 3833 (attempt 2/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/3833?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 3833 (attempt 3/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/3833?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  → 0 listings, avg 0만원 (0 area groups)
+Fetching 약수 하이츠 (1238)...
+[naver] Failed to crawl 1238 (attempt 1/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/1238?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 1238 (attempt 2/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/1238?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 1238 (attempt 3/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/1238?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  → 0 listings, avg 0만원 (0 area groups)
+Fetching 사당우성2단지 (380)...
+[naver] Failed to crawl 380 (attempt 1/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/380?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 380 (attempt 2/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/380?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 380 (attempt 3/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/380?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  → 0 listings, avg 0만원 (0 area groups)
+Fetching 사당우성3단지 (381)...
+[naver] Failed to crawl 381 (attempt 1/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/381?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 381 (attempt 2/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/381?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 381 (attempt 3/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/381?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  → 0 listings, avg 0만원 (0 area groups)
+Fetching DMC한양 (426)...
+[naver] Failed to crawl 426 (attempt 1/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/426?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 426 (attempt 2/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/426?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 426 (attempt 3/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/426?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  → 0 listings, avg 0만원 (0 area groups)
+Fetching 염창 동아1차 (869)...
+[naver] Failed to crawl 869 (attempt 1/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/869?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 869 (attempt 2/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/869?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 869 (attempt 3/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/869?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  → 0 listings, avg 0만원 (0 area groups)
+Fetching 염창 동아3차 (870)...
+[naver] Failed to crawl 870 (attempt 1/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/870?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 870 (attempt 2/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/870?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  ↻ Retrying in 10s...
+[naver] Failed to crawl 870 (attempt 3/3): page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://new.land.naver.com/complexes/870?ms=37.5,127,16&a=APT&e=RETAIL", waiting until "networkidle"
+
+  → 0 listings, avg 0만원 (0 area groups)
+Done. Updated /Users/sojungkim/Desktop/project/apt-tracker/data/listings.json
+[main 749a28e] chore: update listings data 2026-02-26
+ 1 file changed, 81 insertions(+), 1 deletion(-)
+To github.com:jun0811/apt-tracker.git
+ ! [rejected]        main -> main (fetch first)
+error: 레퍼런스를 'github.com:jun0811/apt-tracker.git'에 푸시하는데 실패했습니다
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[Thu Feb 26 14:20:46 KST 2026] Pushed.
+[Fri Feb 27 12:01:08 KST 2026] Starting collect...
+
+> apt-tracker@1.0.0 collect
+> tsx scripts/collect.ts
+
+Backup saved: listings-2026-02-27.json
+Fetching 안양시 목련3단지 (3022)...
+  → 16 listings, avg 72813만원 (3 area groups)
+Fetching 강서구 등촌3단지 주공 (12)...
+  → 18 listings, avg 105889만원 (2 area groups)
+Fetching 금호삼성래미안 (3417)...
+  → 19 listings, avg 174789만원 (3 area groups)
+Fetching 약수동 남산타운 (3833)...
+  → 16 listings, avg 184625만원 (3 area groups)
+Fetching 약수 하이츠 (1238)...
+  → 16 listings, avg 163188만원 (3 area groups)
+Fetching 사당우성2단지 (380)...
+  → 12 listings, avg 196500만원 (2 area groups)
+Fetching 사당우성3단지 (381)...
+  → 20 listings, avg 166300만원 (5 area groups)
+Fetching DMC한양 (426)...
+  → 14 listings, avg 109857만원 (4 area groups)
+Fetching 염창 동아1차 (869)...
+  → 11 listings, avg 129091만원 (2 area groups)
+Fetching 염창 동아3차 (870)...
+  → 13 listings, avg 141923만원 (2 area groups)
+Done. Updated /Users/sojungkim/Desktop/project/apt-tracker/data/listings.json
+[main 3587462] chore: update listings data 2026-02-27
+ 1 file changed, 2670 insertions(+), 142 deletions(-)
+To github.com:jun0811/apt-tracker.git
+ ! [rejected]        main -> main (fetch first)
+error: 레퍼런스를 'github.com:jun0811/apt-tracker.git'에 푸시하는데 실패했습니다
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[Fri Feb 27 12:11:33 KST 2026] Pushed.
